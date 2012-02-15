@@ -136,9 +136,9 @@ width:590px;
 	margin:0 auto;
 	padding:10px 0;
 	width:990px;
-	background-color:#666;
-	text-align: center;
-	color: #FFF;
+	background:url("/sites/all/themes/CyranoD6_MG/images/bg_footer.jpg") no-repeat scroll right bottom white;
+	
+	color: black;
 }
 #bloc_stats{
     color:red;

@@ -3,78 +3,102 @@ Template page d'accueil custom
  */
 #header-inner{
 	margin:auto;
-	height:259px;
+	height:auto;
 	width:990px;
 	background:none;
 	
 
 }
 /*Partie gauche du header*/
-#headGauche{
-	width:200px;
-	height:259px;
-	float:left;
+#headHaut{
+	width:990px;
+	height:64px;
+	float:none;
 	display:block;
 	margin:0;
 	
 }
 #logoHead{
-	height:209px !important;
-	width:200px;
+	height:64px !important;
+	width:335px;
 	float:left;
 	display:block;
 	margin:0;
 }
 #logoHead img{
-	height:133px !important;
-	width:198px;
-	padding:40px 0 33px;
+	height:64px !important;
+	width:189px;
+	padding:0;
 	margin:0;
 }
 /*Menu pictos header*/
 #menuImg{
-	height:50px;
-	width:200px;
-	float:left;
-	background:#f97d0d;
+	height:30px;
+	width:auto;
+	float:right;
+	background:transparent;
+	padding:30px 0 0;
 
 }
 #navPicto{
 border:0;
-height:48px;
-width:200px;
+height:25px;
+width:550px;
 
 }
 
 #navPicto td{
 border:0;
-height:39px;
-width:38px;
+height:25px;
+width:auto;
 display:block;
 float:left;
-padding:5px;
+padding:4px;
 }
 
 #navPicto a {
 	border:0;
 	}
 #navPicto a :hover{}
-
-/*Menu principal haut du header*/
-#menuHead{
-	float:left;
-	height:59px;
-	padding:0;
-	width:790px;
-	background:#DFDFDF;
+/************PARTIE BASSE**************/
+#headBas{
+	width:990px;
+	height:108px;
+	float:none;
+	display:block;
+	margin:5px 0 0 0;
+	background:#CFD0D2 url(../images/bg_menu_rp.gif) repeat-x top left;
 	
 }
+/*Menu principal haut du header*/
+#menuHead{
+	float:none;
+	height:auto;
+	padding:0;
+	width:990px;
+	
+	
+	
+}
+#headSearch{
+text-align:right;
+margin: 2px 0 0 0;
+background: url(../images/bg_recherche.gif) no-repeat left 5px;
+height: 25px;
+display: block;
+float: right;
+}
+#search{
+  width: 225px;
+  height: 25px;
+  display: block;
+  padding:0 3px 0 0;
 
+}
 #name-and-slogan{
-	height:200px;
-	width:790px;
+	height:20px;
+	width:990px;
 	vertical-align:bottom;
-	background:url(../images/bg_header.jpg) no-repeat top left;
 	float:right;
 }
 #site-name a{
@@ -87,49 +111,108 @@ text-transform: uppercase;
 padding:160px 0 0 10px;
 margin:0;
 }
+#site-slogan{
+color:white;
+display:block;
+float:left;
+height:20px;
+padding:3px 0 0 40px;
+width:400px;
+}
+
+#site-slogan a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+
 
 /*FIN CSS HEADER*/
 /*****************/
 #mainPage{
 	margin:auto;
-	background:#ffffff url(../images/bg_colonne_g_rp.jpg) repeat-y top left;
 	width:990px;
 	clear:none;
+        background: url(../images/bg_content_etoile.gif) no-repeat left bottom;
 	
 }
+/********************/
+/*ZONES PAGE ACCUEIL*/
+#content-bottom-home a{
+    color: gray;
+    font-weight: bold;
+}
+#HPDiapo{
+width: 50%;
+height: auto;
+padding:10px 0 0;
+  float:right;
 
-#contentHome{
-	width:50%;
-	float:left;
-	background:none;
-	color:black;
-}
-#contentHome a{
-color:black;
-text-decoration:none;
-}
-#contentHome a:hover{
-text-decoration:underline;
-}
-#contentEdito{
-	width:50%;
-	float:left;
-	background:none;
 }
 
-#textEdito{
-background: none;
-color: black;
-padding: 10px;
+#HPGauche{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+
+    float: left;
 }
-/*Table pour lycees sur accueil*/
-tbody{
-margin:0;
-padding:0;
-border:0;
+
+#HPGauche1{
+    text-align: center;
 }
-#tb_lycees{
-width:990px;
-margin: 0 auto;
-padding:0;
+
+#HPGauche2{
+    background: url("../images/titre_actus_hp.gif") no-repeat top left;
+    margin: 0;
+    padding: 35px 2px 0;
+}
+
+#HPGauche3{
+    background: url("../images/titre_foyer_hp.gif") no-repeat top left;
+    margin: 0;
+    padding: 35px 2px 0;
+
+}
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
+#transparency{
+background:none repeat scroll 0 0 #1F1F1F;
+
+height:115px;
+bottom:12px;
+left:11px;
+position:absolute;
+width:450px;
+z-index:15;
+opacity:0.6;
+-moz-opacity : 0.6;
+-ms-filter: "alpha(opacity=60)"; /* IE 8 */
+filter : alpha(opacity=60); /* IE < 8 */
+}
+#contenu-diapo{
+position:absolute;
+bottom: 10%;
+left: 10px;
+color: white;
+z-index:20;
+}
+#contenu-diapo h2{
+color: orange;
+padding:5px;
+font-family: Arista,Trebuchet MS,sans serif;
+
+}
+#contenu-diapo a{
+color: white;
+text-decoration: none;
+}
+.view-diaporama-homepage{
+    position: inherit;
+}
+#views_slideshow_singleframe_main_diaporama_homepage-block_1{
+    padding: 0;
+}
+#views_slideshow_singleframe_teaser_section_diaporama_homepage-block_1{
+    position: relative;
+    z-index:1;
 }

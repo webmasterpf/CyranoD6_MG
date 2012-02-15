@@ -1,0 +1,135 @@
+/**
+Template page d'accueil custom
+ */
+#header-inner{
+	margin:auto;
+	height:259px;
+	width:990px;
+	background:none;
+	
+
+}
+/*Partie gauche du header*/
+#headGauche{
+	width:200px;
+	height:259px;
+	float:left;
+	display:block;
+	margin:0;
+	
+}
+#logoHead{
+	height:209px !important;
+	width:200px;
+	float:left;
+	display:block;
+	margin:0;
+}
+#logoHead img{
+	height:133px !important;
+	width:198px;
+	padding:40px 0 33px;
+	margin:0;
+}
+/*Menu pictos header*/
+#menuImg{
+	height:50px;
+	width:200px;
+	float:left;
+	background:#f97d0d;
+
+}
+#navPicto{
+border:0;
+height:48px;
+width:200px;
+
+}
+
+#navPicto td{
+border:0;
+height:39px;
+width:38px;
+display:block;
+float:left;
+padding:5px;
+}
+
+#navPicto a {
+	border:0;
+	}
+#navPicto a :hover{}
+
+/*Menu principal haut du header*/
+#menuHead{
+	float:left;
+	height:59px;
+	padding:0;
+	width:790px;
+	background:#DFDFDF;
+	
+}
+
+#name-and-slogan{
+	height:200px;
+	width:790px;
+	vertical-align:bottom;
+	background:url(../images/bg_header.jpg) no-repeat top left;
+	float:right;
+}
+#site-name a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+
+#site-name{
+padding:160px 0 0 10px;
+margin:0;
+}
+
+/*FIN CSS HEADER*/
+/*****************/
+#mainPage{
+	margin:auto;
+	background:#ffffff url(../images/bg_colonne_g_rp.jpg) repeat-y top left;
+	width:990px;
+	clear:none;
+	
+}
+
+#contentHome{
+	width:50%;
+	float:left;
+	background:none;
+	color:black;
+}
+#contentHome a{
+color:black;
+text-decoration:none;
+}
+#contentHome a:hover{
+text-decoration:underline;
+}
+#contentEdito{
+	width:50%;
+	float:left;
+	background:none;
+}
+
+#textEdito{
+background: none;
+color: black;
+padding: 10px;
+}
+/*Table pour lycees sur accueil*/
+tbody{
+margin:0;
+padding:0;
+border:0;
+}
+#tb_lycees{
+width:990px;
+margin: 0 auto;
+padding:0;
+}
