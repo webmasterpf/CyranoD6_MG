@@ -1,0 +1,36 @@
+;Changer le nom du theme ici.Changer aussi le nom du fichier
+;Ajouter les regions utiles dans la liste ci apres, idem pour les CSS.
+;Changer le screenshot du site pour interface admin
+;
+name = Template for PF
+description = Gabarit CSS /xHTML pour Drupal 6 - Base de developpement de sites a personnaliser. Inspiration par Stark et Basic.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/layout-home.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/global.css
+stylesheets[all][] = css/nice_menus_custom.css
+stylesheets[all][] = css/nice_menus_default.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style-backoffice.css
+
+
+
+
+regions[header] = Header
+regions[menuHaut] = Menu Header
+regions[iconeNav] = Navigation par icones
+regions[edito] = Edito
+regions[content_top] = Content top
+regions[left] = Colonne Gauche
+regions[right] = Colonne Droite
+regions[content_bottom] = Content bottom
+regions[content_bottom_home] = Content bottom homepage
+regions[footer_block] = Footer
+
+settings[basic_zen_tabs]             = 1
+settings[basic_wireframe]            = 0
+settings[basic_block_editing]        = 1
+settings[basic_rebuild_registry]     = 1
+

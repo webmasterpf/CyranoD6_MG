@@ -1,0 +1,249 @@
+/*------------------------------------------------------*
+*-- CSS Drupal 6--------------*
+*------------------------------------------------------*/
+
+/*------------------------------------------------*
+ *---  Provence Formation 2011 --*
+ *------------------------------------------------*/
+/*------- EFFETS VISUELS GENERIQUES--------------*/
+.ombrage {
+    border: 5px solid #fff;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    box-shadow: 8px 8px 12px #555;
+}
+.ombrage_bas {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+.table_tr_ombrage_bas{
+    -moz-box-shadow: 1px 2px 2px #aaa;
+    -webkit-box-shadow: 1px 2px 2px #aaa;
+    box-shadow: 1px 2px 2px #555;
+}
+.ombrage_bloc {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+.ombrage_bas_table_actu{
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+ 
+/*------- COULEURS DE BASE POUR CSS---------------∕∕
+rouge #E2001A
+rose #E2007A
+orange #F29400
+bleu #00AAD2
+vert #C8D215
+jaune #F8E91B
+violet #93117E
+gris clair #9C9E9F
+gris fonce #606171
+orange fonce logo #DE603A
+∕∕------- FIN COULEURS ---------------*/
+/**********STYLE POUR LES BLOCS*******************/
+
+/**----HEADER---***/
+
+
+/**----MIDDLE---***/
+#middle-content p{
+	color:#000;
+	padding: 3px;
+
+}
+
+.item-list ul li {
+list-style-image:none;
+list-style-position:none;
+list-style-type:none;
+margin:0 0 0.25em 1.5em;
+padding:0;
+}
+
+.item-list ul{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+}
+
+/*style lien en savoir plus*/
+li.node_read_more a{
+color : red;
+text-decoration: none;
+text-align:left;
+}
+li.node_read_more a:hover{
+text-decoration: underline;
+}
+
+
+
+/*---------------------------*/
+/**----CONTENT TOP---***/
+#content-header{
+padding: 5px;
+}
+/**style du fil d'ariane**/
+.breadcrumb {
+color:#C0c0c0;
+text-decoration:none;
+}
+.breadcrumb a{
+color:#FFF;
+text-decoration:none;
+}
+.breadcrumb a:hover{
+color:#000;
+text-decoration:underline;
+}
+/**----CONTENT BOTTOM---***/
+#content-top{}
+.taxonomy{
+text-align:right;
+padding: 3px;
+margin: 0px;
+}
+.taxonomy a{
+color: #FF00FF;
+text-decoration:none;
+}
+.taxonomy a:hover{
+text-decoration:underline;
+}
+/*----page login------*/
+#user-login{
+margin: auto;
+width: 450px;
+padding:10px 0;
+}
+/**----COLONNE GAUCHE---***/
+#left-content p{
+	color:#000;
+
+}
+#left-content a{
+	color:#666666;
+	text-decoration:none;
+}
+#left-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#left-content li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+/**----COLONNE DROITE---***/
+#right-content p{
+	color:#000;
+
+}
+#right-content a{
+	color:#666666;
+	text-decoration:none;
+}
+#right-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#right-content li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+/**----FOOTER---***/
+#footer a{
+color: #FFF;
+text-decoration:none;
+}
+#footer a:hover{
+color: #FFCCFF;
+}
+
+ /*------------------------------------------------------*
+  *------------ CSS H  ----*
+  *------------------------------------------------------*/
+  
+h1 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 20px;
+}
+  
+h2 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 18px;
+}
+h2.title{
+	margin: 5px;
+	padding: 0;
+	color:#000;
+	font-size: 18px;
+}
+h2.title a{
+	color:#EF1D1D;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 16px;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 14px;
+}
+h5 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 12px;
+}
+h6 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 10px;
+}
+/*--------------------------------------------
+---- STYLE POUR PAGE.TPL ET NODE.TPL OVERRIDE
+**********************************************
+-------------- GENERIQUE --------------------*/
+
+/*//////////////////////\\\\\\\\\\\\\\\\\\\\\\
+********** STYLE NODE.TPL OVERRIDE **********
+\\\\\\\\\\\\\\\\\\\\\\\//////////////////////*/
+/*//////////////// COLONNE 1 \\\\\\\\\\\\\\\\*/
+#colonne-1 p{}
+#colonne-1 a{}
+#colonne-1 a:hover{}
+#colonne-1 h2{}
+#colonne-1 h3{}
+#colonne-1 h4{}
+#colonne-1 ul{}
+#colonne-1 li{}
+#colonne-1 hr{}
+
+
+/*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
+#colonne-2{
+
+
+}
+/*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
+#colonne-3{
+
+}

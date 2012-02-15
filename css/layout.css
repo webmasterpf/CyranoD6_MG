@@ -1,0 +1,186 @@
+/**
+ * @file
+ * Stark layout method
+ *
+ * To avoid obscuring CSS added to the page by Drupal or a contrib module, the
+ * Stark theme itself has no styling, except just enough CSS to arrange the page
+ * in a traditional "Header, sidebars, content, and footer" layout.
+ *
+ * This layout method works reasonably well, but shouldn't be used on a
+ * production site because it can break. For example, if an over-large image
+ * (one that is wider than 20% of the viewport) is in a sidebar, the entire
+ * #main content can shift completely below the sidebar.
+ */
+ /*------- TYPOS CUSTOM ---------------*/
+@font-face {
+    font-family : "Arista";
+    src: url(../typos/Arista2.0_light.eot); /* IE */
+    src: local("Arista"), url(../typos/Arista2.0_light.ttf) format('truetype');/* non-IE */
+}
+/*------- FIN TYPOS CUSTOM ---------------*/
+/*------- COULEURS DE BASE POUR CSS---------------∕∕
+rouge #E2001A
+rose #E2007A
+orange #F29400
+bleu #00AAD2
+vert #C8D215
+jaune #F8E91B
+violet #93117E
+gris clair #9C9E9F
+gris fonce #606171
+orange fonce logo #DE603A
+∕∕------- FIN COULEURS ---------------*/
+
+html {
+ margin: 0;
+ padding: 0;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFF;
+	color: #000;
+}
+
+ /*------------------------------------------------------*
+  *--------    CSS BLOCS     						 ----*
+  *------------------------------------------------------*/
+
+
+#general{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+/*Haut de page  HEADER*/
+
+#header{
+	margin:0 auto;
+	padding:0;
+	width:990px;
+	height:auto;
+	background-color:#FFCC66;
+}
+
+/*Contenu de page  CONTENT */
+
+#contentPage {
+	margin:0 auto;
+	padding:0;
+	width: 990px;
+	background-color:#CCC;
+}
+#content-inner,#left-content,#right-content{
+height: 100%;
+}
+/*//////SOUS ENTETE/////*/
+#content-top{
+	margin:0 auto;
+	padding:5px;
+	width:590px;
+	height:auto;
+	background-color: #999;
+	}
+	
+/*/// debut des colonnes ///*/
+#left-content{
+	float:left;
+	position:relative;
+	background-color:#00CC99;
+	width:200px;
+	left:0px;
+}
+
+/*/// partie de droite ///*/
+#right-content{
+	float:right;
+	position:relative;
+	background-color:#FF66CC;
+	width:200px;
+	right:0px;
+}
+/*inner content*/
+#content-inner{
+width:590px;
+margin:0 auto;
+float:left;
+background-color:blue;
+}
+/*///    partie du centre   ///*/
+#middle-content{
+	float:left;
+	position:relative;
+	background-color:yellow;
+	width:590px;
+	padding:5px;
+}
+.swftools-wrapper wijering-imagerotator{
+margin: 0 auto;
+width: auto;
+border: 1px solid #000;
+}
+/*PIED DE CONTENU*/
+#content-bottom{
+background:#C0c0c0;
+width:590px;
+}
+
+/*Bas de page  FOOTER*/
+
+#footer{
+	margin:0 auto;
+	padding:10px 0;
+	width:990px;
+	background-color:#666;
+	text-align: center;
+	color: #FFF;
+}
+#bloc_stats{
+    color:red;
+    margin:0 auto;
+    width:600px;
+}
+/*--------------------------------------------
+---- LAYOUT POUR PAGE.TPL ET NODE.TPL OVERRIDE
+**********************************************
+-------------- GENERIQUE --------------------*/
+
+/*//////////////////////\\\\\\\\\\\\\\\\\\\\\\
+********** LAYOUT NODE.TPL OVERRIDE **********
+\\\\\\\\\\\\\\\\\\\\\\\//////////////////////*/
+/*//////////////// COLONNE 1 \\\\\\\\\\\\\\\\*/
+#colonne-1{
+    width: 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.col1_layout_200_590_200{}
+.col1_layout_330_all{}
+.col1_layout_18_56_25{}
+/*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
+#colonne-2, #middle-content-override{
+    width: 550px;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+}
+.col2_layout_200_590_200{}
+.col2_layout_330_all{}
+.col2_layout_18_56_25{}
+/*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
+#colonne-3{
+    width: 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.col3_layout_200_590_200{}
+.col3_layout_330_all{}
+.col3_layout_18_56_25{}
