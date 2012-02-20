@@ -5,7 +5,6 @@
  * $viewname_fl3 = 'NOM_De_LA_VUE';
  * $viewdisplay_fl3 = $view->set_display('DISPLAY_CHOISI');
  * Si besoin d'argument, utiliser la ligne dédiée $args et l'ajouter comme ceci $view->preview($viewdisplay_fl3, $args)
- * Modifer les classes , le texte vide selon besoin
  */
 
 ?>
@@ -13,13 +12,13 @@
 
     <?php
 
-$viewname_fl3 = 'Formations_lycee';
-$view = views_get_view ($viewname_fl3);
-$viewdisplay_fl3 = $view->set_display('block_3');
-//$args_ldj1 = $view->set_arguments(array($node->nid));
+$viewname_ld1 = 'Liste_docs';
+$view = views_get_view ($viewname_ld1);
+$viewdisplay_ld1 = $view->set_display('block_1');
+$args_ld1 = $view->set_arguments(array($node->nid));
 
-$emptyTextVue = $view->set_display('block_3')->display_options['empty'];
-$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">TEXTE VIDE A MODIFIER.</div>');
+$emptyTextVue = $view->set_display('block_1')->display_options['empty'];
+$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">Pas de documents</div>');
 
 //Exécution de le vue
 $view->pre_execute();
@@ -27,7 +26,7 @@ $view->execute();
 
 if (!empty($view->result)) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
-  $output = '<div id="MODIFIER"><h3 class="classe-h3">'.$view->get_title().'</h3>' .$view->preview($viewdisplay_fl3).'</div>';
+  $output = '<div id="docs_lycee"><h3 class="classe-h3">'.$view->get_title().'</h3>' .$view->preview($viewdisplay_ld1,$args_ld1).'</div>';
 
   //Affiche la vue si contenu
 print $output;
@@ -35,11 +34,9 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-     $outputEmpty = '<div id="MODIFIER"><h3 class="classe-h3">'.$view->get_title().'</h3>' .$emptyText.'<br>'.$emptyTextVue.'</div>';
+     $outputEmpty = '<div id="docs_lycee"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>' .$emptyText.'<br>'.$emptyTextVue.'</div>';
     // drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
      //Affichage du texte vide
   print $outputEmpty;
 }
-
-
 ?>

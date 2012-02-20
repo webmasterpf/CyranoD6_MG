@@ -287,7 +287,7 @@ li.sfHover > a > .sf-sub-indicator {
 }
 .sf-navbar li li {
   position: relative;
-  margin: 25px 0 0;/* place les elements des sous rubrique*/
+  margin: 10px 0 0;/* place les elements des sous rubrique*/
   width: auto;
 }
 .sf-navbar ul li li a{
@@ -315,7 +315,7 @@ li.sfHover > a > .sf-sub-indicator {
   color: #95107D;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B*/
 }
 .sf-navbar a:hover{
-    color: #AEC721;/*couleur des a:hover */
+    color: #E2007A;/*couleur des a:hover */
     background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
 }
 .sf-navbar a.active{

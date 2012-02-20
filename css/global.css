@@ -92,15 +92,15 @@ padding: 5px;
 }
 /**style du fil d'ariane**/
 .breadcrumb {
-color:#C0c0c0;
+color:#94127F;
 text-decoration:none;
 }
 .breadcrumb a{
-color:#FFF;
+color:#E2007A;
 text-decoration:none;
 }
 .breadcrumb a:hover{
-color:#000;
+color:#94127F;
 text-decoration:underline;
 }
 /**----CONTENT BOTTOM---***/
@@ -175,7 +175,7 @@ color: #9C9E9F;
 h1 {
 	margin: 0;
 	padding: 0;
-	color:#000;
+	color:#E2007A;
 	font-size: 20px;
 }
   
@@ -197,7 +197,7 @@ h2.title a{
 h3 {
 	margin: 0;
 	padding: 0;
-	color:#000;
+	color:#E2007A;
 	font-size: 16px;
 }
 h4 {
@@ -217,6 +217,9 @@ h6 {
 	padding: 0;
 	color:#000;
 	font-size: 10px;
+}
+.titre_page{
+      line-height: 30px;
 }
 /*--------------------------------------------
 ---- STYLE POUR PAGE.TPL ET NODE.TPL OVERRIDE
@@ -245,5 +248,80 @@ h6 {
 }
 /*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
 #colonne-3{
+}
 
+/*¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+-------- PAGE LYCEE NODE.TPL ---------------*/
+#middle-content-page-lycee a{
+    color: #E2007A;
+    padding: 0 2px;
+}
+#middle-content-page-lycee a:hover{
+    background: #E2007A;
+    color: white;
+    text-decoration: none;
+}
+#middle-content-page-lycee strong{
+    color: #E2007A;
+}
+#middle-content-page-lycee {}
+#diapo_lycee{
+    display: block;
+    margin: 0 auto;
+    width: 175px !important;
+    width: 174px;/*IE*/
+}
+#diapo_lycee img{
+    border: 2px solid #94127F;
+    margin: 10px 0 0;
+}
+#diapo_lycee{}
+
+#docs_lycee{
+    width: 200px;
+    margin: 0 auto;
+}
+#docs_lycee h3{
+    font-family:Arista,trebuchet-MS,sans-serif;
+    text-align: center;
+    color: #950F7E;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+#docs_lycee table{
+    width: 200px;
+    display: block;
+    border: 3px solid #D0D1D2;
+    background: #EFEFEF;
+    box-shadow:0px 0px 7px 1px #564E4E;
+    -moz-box-shadow: 3px #564E4E;
+    -webkit-box-shadow: 3px #564E4E;
+}
+#docs_lycee tbody{
+     display: block;
+    padding: 10px 5px;
+    text-align: center;
+}
+#docs_lycee tr{}
+#docs_lycee td{}
+#docs_lycee td a{
+    display: block;
+    color: #564E4E;
+    text-decoration: none;
+    width: 185px;
+}
+#docs_lycee td a:hover{
+    background: #E2007A;
+    border-radius: 10px;
+}
+#docs_lycee .filefield-icon{
+    display: none;
+}
+#video_lycee{
+    border: 2px solid #950F7E;
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    
 }
