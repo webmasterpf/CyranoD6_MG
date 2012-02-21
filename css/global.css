@@ -325,3 +325,39 @@ h6 {
     margin: 0 auto;
     
 }
+/*------------------------------------
+        PAGE FICHE FORMATION
+_______________________________________*/
+.pageficheform_content_col1 p,.pageficheform_content_col2 p{
+    padding: 5px;
+}
+.pageficheform_content_col1 a,.pageficheform_content_col2 a{
+    color: #E2007A;
+    padding: 0 2px;
+}
+.pageficheform_content_col1 a:hover,.pageficheform_content_col2 a:hover{
+     background: #E2007A;
+    color: white;
+    text-decoration: none;
+}
+.pageficheform_content_col1 h3,.pageficheform_content_col2 h3{}
+.pageficheform_content_col1 strong,.pageficheform_content_col2 strong{
+    color: #00ACD1;
+}
+.pageficheform_content_col1,.pageficheform_content_col2{}
+#deco-ficheform{
+    border: 3px solid #E2007A;
+     box-shadow:0px 0px 7px 1px #564E4E;
+    -moz-box-shadow: 3px #564E4E;
+    -webkit-box-shadow: 3px #564E4E;
+    margin: 5px 0;
+}
+#complement-ficheform p{
+    font-family:Arista,trebuchet-MS,sans-serif;
+    font-size: 13px;
+    color: #911381;
+}
+#complement-ficheform{}
+#docs_ficheform{}
+#docs_ficheform{}
+#docs_ficheform{}
