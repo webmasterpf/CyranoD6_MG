@@ -1,3 +1,4 @@
+<?php/*_______________FONCTIONS POUR THEMING NODE____________*/?>
 <?php
 // permet template suggestions avec page-
 function phptemplate_preprocess(&$vars, $hook)
@@ -12,7 +13,7 @@ function phptemplate_preprocess(&$vars, $hook)
       break;
 
   }
-}
+}	
 ?>
 <?php
 /*Permet d'attribuer un template de node différent selon terme de taxo et type de contenu
@@ -61,6 +62,21 @@ if ( in_array($node->type,$lesTypes) ) {
  //drupal_set_message('Type du node hors : '.$node->type,'status');
 // drupal_set_message('Term name hors : '.$term->name,'status');
     }
+    
+//Pour afficher une seule taxonomie non cliquable
+//http://drupal.org/node/823918//
+  $node = $vars['node'];
+  $vars['template_file'] = 'node-'. $node->nid;
+  $wanted_vid = array('2');//Choisir ici le vid voulu,utiliser ensuite la variable utile dans le node.tpl
+  foreach($node->taxonomy as $term) {
+    if ( $wanted_vid == $term->vid ) {
+      $vars['my_taxo_actu'] .= $term->name;
+      $vars['my_taxo_ficheform'] .= $term->name;
+       //drupal_set_message('VID trouve : '.$term->vid.'Terme fiche formation :'.$my_taxo_ficheform,'status');
+      //You would need to format this the way you want it displayed, or pass it to a theme function
+      //Changer le nom de la variable si l'on ne se sert pas toujours du meme vid
+    }
+  }
 }
 ?>
 <?php
@@ -78,6 +94,7 @@ function phptemplate_preprocess_page(&$vars) {
   }
 }
 ?>
+<?php/*_______________FONCTIONS UTILITAIRES____________*/?>
 <?php
 // permet le debugage de php avec drupal
 function debug_print($var) {

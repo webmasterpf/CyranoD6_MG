@@ -167,7 +167,9 @@ width:590px;
 .col1_layout_215_520_235{
     width: 215px
 }
-.col1_layout_200_590_200{}
+.col1_layout_200_590_200{
+    width: 200px;
+}
 .col1_layout_330_all{}
 .col1_layout_18_56_25{}
 
@@ -181,7 +183,9 @@ width:590px;
 .col2_layout_215_520_235{
     width: 520px
 }
-.col2_layout_200_590_200{}
+.col2_layout_200_590_200{
+    width: 590;
+}
 .col2_layout_330_all{}
 .col2_layout_18_56_25{}
 .col2_layout_490_all{
@@ -199,7 +203,9 @@ width:590px;
 .col3_layout_215_520_235{
     width: 235px
 }
-.col3_layout_200_590_200{}
+.col3_layout_200_590_200{
+    width: 200px;
+}
 .col3_layout_330_all{}
 .col3_layout_18_56_25{}
 .col3_layout_490_all{
@@ -276,4 +282,20 @@ LAYOUT POUR NODE.TPL FICHE FORMATION
 }
 .pageficheform_content_col2{
   /*border-left: 1px solid #91127D;*/
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL CONTENU VDL
+---------------------------------------------------*/
+#content-inner-page-VDL{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-VDL  {
+    width: auto;
+    padding: 5px;
+    float: left;
+
 }

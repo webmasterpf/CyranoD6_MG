@@ -352,12 +352,115 @@ _______________________________________*/
     -webkit-box-shadow: 3px #564E4E;
     margin: 5px 0;
 }
+#deco-ficheform img{
+ width: 460px;
+}
 #complement-ficheform p{
     font-family:Arista,trebuchet-MS,sans-serif;
     font-size: 13px;
     color: #911381;
 }
 #complement-ficheform{}
-#docs_ficheform{}
-#docs_ficheform{}
-#docs_ficheform{}
+#docs_ficheform table{
+    background: #EFEFEF;
+    border: 3px solid #95127C;
+    width: 470px;
+     box-shadow:0px 0px 7px 1px #564E4E;
+    -moz-box-shadow:0px 0px 7px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 7px 1px #564E4E;
+}
+#docs_ficheform td{
+    text-align: center;
+}
+#docs_ficheform td a{
+    text-decoration: none;
+    color: #543F4F;
+    
+}
+#docs_ficheform td a:hover{
+     background: #E2007A;
+    border-radius: 10px;
+}
+#docs_ficheform .filefield-icon{
+    display: none;
+}
+.taxo-ficheform{
+   font-style: italic;
+}
+/*______________________________________
+-------- PAGE TERM TAXO ----------------
+*/
+.taxo-page{}
+.taxo-page a{
+    text-decoration: none;
+    color: #95127C;
+    
+}
+.taxo-page a:hover{
+    background: #95127C;
+    color: white;
+}
+.taxo-page table{
+    width: 500px;
+}
+.taxo-page tbody{}
+.taxo-page tr{}
+.taxo-page td{}
+/*------------------------------------
+        PAGE CONTENU VDL
+_______________________________________*/
+.vdl-content{
+    border-left: 1px solid #E2007A;
+}
+.vdl-content p{
+    padding: 5px;
+}
+#vdl-passerelle a{
+    text-decoration: none;
+}
+#vdl-passerelle{
+    width: 220px;
+    text-align: center;
+}
+#vdl-illustration img{
+    border: 2px solid #E2007A;
+    margin: 5px 0;
+}
+#vdl-galerie-image{}
+#vdl-video{
+    width: 425px;
+    margin: 0 auto;
+    border: 2px solid #D0D1D2;
+}
+#vdl-docs h3{
+   font-family:Arista,trebuchet-MS,sans-serif;
+    text-align: center;
+    color: #950F7E;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+#vdl-docs table{
+    background: #EFEFEF;
+    border: 3px solid #D0D1D2;
+    width: 225px;
+    margin: 0 auto;
+     box-shadow:0px 0px 7px 1px #564E4E;
+    -moz-box-shadow:0px 0px 7px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 7px 1px #564E4E;
+}
+#vdl-docs td{
+    text-align: center;
+}
+#vdl-docs td a{
+    text-decoration: none;
+    color: #543F4F;
+    
+}
+#vdl-docs td a:hover{
+     background: #E2007A;
+    border-radius: 10px;
+}
+#vdl-docs .filefield-icon{
+    display: none;
+}

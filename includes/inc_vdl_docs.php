@@ -12,10 +12,10 @@
 
     <?php
 
-$viewname_ld2 = 'Liste_docs';
-$view = views_get_view ($viewname_ld2);
-$viewdisplay_ld2 = $view->set_display('block_2');
-$args_ld2 = $view->set_arguments(array($node->nid));
+$viewname_ld3 = 'Liste_docs';
+$view = views_get_view ($viewname_ld3);
+$viewdisplay_ld3 = $view->set_display('block_3');
+$args_ld3 = $view->set_arguments(array($node->nid));
 
 //$emptyTextVue = $view->set_display('block_2')->display_options['empty'];
 $emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">Pas de documents</div>');
@@ -26,7 +26,7 @@ $view->execute();
 
 if (!empty($view->result)) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
-  $output = '<div id="docs_ficheform"><h3 class="classe-h3">'.$view->get_title().'</h3>' .$view->preview($viewdisplay_ld2,$args_ld2).'</div>';
+  $output = '<div id="vdl-docs"><h3 class="classe-h3">'.$view->get_title().'</h3>' .$view->preview($viewdisplay_ld3,$args_ld3).'</div>';
 
   //Affiche la vue si contenu
 print $output;
@@ -34,7 +34,7 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-     $outputEmpty = '<div id="docs_ficheform"><h3 class="titre">'.$view->get_title().'</h3>'.$emptyText.'</div>';
+     $outputEmpty = '<div id="vdl-docs"><h3 class="titre">'.$view->get_title().'</h3>'.$emptyText.'</div>';
     // drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
      //Affichage du texte vide
   print $outputEmpty;
