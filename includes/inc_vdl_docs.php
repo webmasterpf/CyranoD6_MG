@@ -18,7 +18,7 @@ $viewdisplay_ld3 = $view->set_display('block_3');
 $args_ld3 = $view->set_arguments(array($node->nid));
 
 //$emptyTextVue = $view->set_display('block_2')->display_options['empty'];
-$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">Pas de documents</div>');
+$emptyText = $view->display_handler->set_option('empty','<div class="texte-vide">Pas de documents</div>');
 
 //Exécution de le vue
 $view->pre_execute();

@@ -20,8 +20,7 @@
                       
             <?php if ($node->field_passerelle_form[0]['view']): ?>
             <div id="vdl-passerelle">
-                 <?php  print $node->field_passerelle_form['field']['#title'];
-                 print $node->field_passerelle_form[0]['view']  ?>
+   <?php  print  $node->content['field_passerelle_form']['field']['#title'].'<br/>'.$node->field_passerelle_form[0]['view'];  ?>
             </div>
             <?php endif;?>
             
@@ -75,6 +74,12 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_vdl_docs.php');
               ?>
+            
+             <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_gasquet_actus.php');
+              ?>
+            
             
             <!--***********!!!!!!  EXEMPLE DE CHAMP CCK INCLUS AVEC CONDITION !!!!!!!!************ -->
             <?php if ($node->nom_du_champ[0]['view']): ?>

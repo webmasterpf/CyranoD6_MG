@@ -58,6 +58,11 @@
               include ($theme_path.'/includes/inc_lycee_docs.php');
               ?>
             
+             <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_gasquet_actus.php');
+              ?>
+            
             <!--***********!!!!!!  EXEMPLE DE CHAMP CCK INCLUS AVEC CONDITION !!!!!!!!************ -->
             <?php if ($node->nom_du_champ[0]['view']): ?>
             <div id="nom-css">

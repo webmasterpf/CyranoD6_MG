@@ -227,6 +227,16 @@ h6 {
 -------------- GENERIQUE --------------------*/
 
 /*//////////////////////\\\\\\\\\\\\\\\\\\\\\\
+********** STYLE VIEWS GLOBAL **********
+\\\\\\\\\\\\\\\\\\\\\\\//////////////////////*/
+
+.texte-vide{
+    display: block;
+    margin: 5px;
+    text-align: center;
+    
+}
+/*//////////////////////\\\\\\\\\\\\\\\\\\\\\\
 ********** STYLE NODE.TPL OVERRIDE **********
 \\\\\\\\\\\\\\\\\\\\\\\//////////////////////*/
 /*//////////////// COLONNE 1 \\\\\\\\\\\\\\\\*/
@@ -361,7 +371,7 @@ _______________________________________*/
     color: #911381;
 }
 #complement-ficheform{}
-#docs_ficheform table{
+#docs_ficheform {
     background: #EFEFEF;
     border: 3px solid #95127C;
     width: 470px;
@@ -369,8 +379,12 @@ _______________________________________*/
     -moz-box-shadow:0px 0px 7px 1px #564E4E;
     -webkit-box-shadow:0px 0px 7px 1px #564E4E;
 }
+#docs_ficheform table{
+}
 #docs_ficheform td{
     text-align: center;
+     width: 470px;
+     display: block;
 }
 #docs_ficheform td a{
     text-decoration: none;
@@ -390,6 +404,11 @@ _______________________________________*/
 /*______________________________________
 -------- PAGE TERM TAXO ----------------
 */
+#TAXOLISTE{
+    background:#EFEFEF;
+    border: 2px solid #E2007A;
+    padding: 10px;
+}
 .taxo-page{}
 .taxo-page a{
     text-decoration: none;
@@ -417,16 +436,33 @@ _______________________________________*/
 }
 #vdl-passerelle a{
     text-decoration: none;
+    color: #E2007A;
 }
 #vdl-passerelle{
-    width: 220px;
+     background: url('../images/bg_point_rp.gif') repeat top left;
+     margin: 10px;
+    padding: 5px;
     text-align: center;
+    width: 170px;
 }
 #vdl-illustration img{
     border: 2px solid #E2007A;
     margin: 5px 0;
 }
-#vdl-galerie-image{}
+#vdl-galerie-image{
+    width: 520px;
+}
+/*Galerie lightbox*/
+#vdl-galerie-image .image-gallery-nodes ul li {
+    background: none repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 100px;
+    list-style-type: none;
+    text-align: center;
+    width: 150px;}
+#vdl-galerie-image .image-gallery-nodes ul li img{
+    border: 3px solid #EFEFEF;
+}
 #vdl-video{
     width: 425px;
     margin: 0 auto;
@@ -463,4 +499,40 @@ _______________________________________*/
 }
 #vdl-docs .filefield-icon{
     display: none;
+}
+
+#gasquet-actus h3{
+   font-family:Arista,trebuchet-MS,sans-serif;
+    text-align: center;
+    color: #E2007A;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+#gasquet-actus table{
+    background: #EFEFEF;
+    border: 3px solid #E2007A;
+    width: 225px;
+    margin: 0 auto;
+     box-shadow:0px 0px 7px 1px #564E4E;
+    -moz-box-shadow:0px 0px 7px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 7px 1px #564E4E;
+}
+#gasquet-actus tr{
+    
+}
+#gasquet-actus td{
+    display: block;
+    margin: 3px 0;
+    text-align: center;
+}
+#gasquet-actus td a{
+    text-decoration: none;
+    color: #543F4F;
+    padding: 3px;
+    
+}
+#gasquet-actus td a:hover{
+     background: #D0D1D2;
+    border-radius: 10px;
 }

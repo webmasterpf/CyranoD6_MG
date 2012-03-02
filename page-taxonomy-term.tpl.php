@@ -47,8 +47,8 @@ include ($theme_path.'/includes/inc_header.php');
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
           <div id="middle-content-page-taxonomie">
-<?php //if ($title): print '<h1'. ($tabs ? ' class="with-tabs"' : '') .'>Nodes in the '. $title .' category</h1>'; endif; ?>
-            <?php if ($title): /*copier le titre dans la colonne desirée*/?>
+
+            <?php  if ($title): /*copier le titre dans la colonne desirée*/?>
             <h1 class="titre_page"><?php print $title; ?></h1>
             <?php endif; ?>
             
