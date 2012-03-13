@@ -172,6 +172,9 @@ width:590px;
 }
 .col1_layout_330_all{}
 .col1_layout_18_56_25{}
+.col1_layout_295_385_295{
+    width: 295px;
+}
 
 /*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
 #colonne-2, #middle-content-override{
@@ -194,9 +197,12 @@ width:590px;
     height: 100%;
     display: table-column;
 }
+.col2_layout_295_385_295{
+    width: 385px;
+}
 /*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
 #colonne-3{
-    float: right;
+    float: left;
     margin: 0;
     padding: 0;
 }
@@ -213,6 +219,9 @@ width:590px;
     background: transparent;
     height: 100%;
     display: table-column;
+}
+.col3_layout_295_385_295{
+    width: 295px;
 }
 /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
@@ -298,4 +307,23 @@ LAYOUT POUR PAGE.TPL CONTENU VDL
     padding: 5px;
     float: left;
 
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE POLE-FILIERES
+---------------------------------------------------*/
+#content-inner-page-pole{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-pole  {
+    width: auto;
+    padding: 5px;
+    float: left;
+}
+#global-content-node{
+    width: 100%;
+    display: block;
 }

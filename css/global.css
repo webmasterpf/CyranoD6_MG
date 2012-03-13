@@ -401,6 +401,126 @@ _______________________________________*/
 .taxo-ficheform{
    font-style: italic;
 }
+/*------------------------------------
+        PAGE POLE-FILIERES
+_______________________________________*/
+.titre_page-pole{
+    text-align: center;
+}
+/*Filiere Techno*/
+#filiere-techno{
+    width: 300px;
+    padding: 5px;
+}
+#filiere-techno h3{
+    color: #950F7E;
+    margin: 5px;
+    text-align: center;
+    font-family:Arista,trebuchet-MS,sans-serif;
+}
+#filiere-techno table{
+    border: 3px solid #950F7E;
+    background: #EFEFEF;
+    box-shadow:0px 0px 3px 1px #564E4E;
+    -moz-box-shadow:0px 0px 3px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+}
+#filiere-techno tbody{}
+#filiere-techno tr{}
+#filiere-techno td{
+    padding: 5px;
+    color: #911381;
+}
+#filiere-techno a{
+    text-decoration: none;
+    color: #543F4F;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+}
+#filiere-techno a:hover{
+    background: #D0D1D2;
+    border-radius: 10px;
+}
+
+/*Filiere Pro*/
+#filiere-pro{
+    width: 300px;
+    padding: 5px;
+}
+#filiere-pro h3{
+    color: #00ACD1;
+    margin: 5px;
+    text-align: center;
+    font-family:Arista,trebuchet-MS,sans-serif;
+}
+#filiere-pro table{
+    border: 3px solid #00ACD1;
+    background: #EFEFEF;
+    box-shadow:0px 0px 3px 1px #564E4E;
+    -moz-box-shadow:0px 0px 3px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+}
+#filiere-pro tbody{}
+#filiere-pro tr{}
+#filiere-pro td{
+    padding: 5px;
+    color: #911381;
+}
+#filiere-pro a{
+    text-decoration: none;
+    color: #543F4F;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+}
+#filiere-pro a:hover{
+    background: #D0D1D2;
+    border-radius: 10px;
+}
+
+/*Filiere BTS*/
+#filiere-bts{
+    width: 300px;
+    padding: 5px;
+}
+#filiere-bts h3{
+    color: #E2007A;
+    margin: 5px;
+    text-align: center;
+    font-family:Arista,trebuchet-MS,sans-serif;
+}
+#filiere-bts table{
+    border: 3px solid #E2007A;
+    background: #EFEFEF;
+    box-shadow:0px 0px 3px 1px #564E4E;
+    -moz-box-shadow:0px 0px 3px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+}
+#filiere-bts tbody{}
+#filiere-bts tr{}
+#filiere-bts td{
+    padding: 5px;
+    color: #911381;
+}
+#filiere-bts a{
+    text-decoration: none;
+    color: #543F4F;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+}
+#filiere-bts a:hover{
+    background: #D0D1D2;
+    border-radius: 10px;
+}
+
 /*______________________________________
 -------- PAGE TERM TAXO ----------------
 */
@@ -535,4 +655,136 @@ _______________________________________*/
 #gasquet-actus td a:hover{
      background: #D0D1D2;
     border-radius: 10px;
+}
+/*------------------------
+        PAGE
+    ACTU GLOBALE
+--------------------------*/
+.titre_page-actu{
+    text-align: center;
+}
+.titre-actu{
+    bottom: -20px;
+    left: 3px;
+    position: relative;
+    width: 190px;
+    z-index: 20;
+    }
+.img-actu img{
+    float: left;
+    border: 1px solid white;
+}
+.actuGlobale-archives{
+   text-align: center;
+}
+.actuGlobale-archives a{
+    font-size: 11px;
+    color: #950F7E;
+    margin: 5px;
+    font-family:Arista,trebuchet-MS,sans-serif;
+}
+.actuGlobale-archives a:hover{}
+/*Liste actu europe*/
+#actu-liste-europe{
+    width: 290px;
+}
+#actu-liste-europe h3{
+    font-size: 20px;
+    color: #950F7E;
+    margin: 5px;
+    text-align: center;
+    font-family:Arista,trebuchet-MS,sans-serif;
+}
+#actu-liste-europe table{
+    border: 3px solid #950F7E;
+    background: #EFEFEF;
+    box-shadow:0px 0px 3px 1px #564E4E;
+    -moz-box-shadow:0px 0px 3px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+}
+#actu-liste-europe tbody{}
+#actu-liste-europe tr{}
+#actu-liste-europe td{
+    padding: 2px;
+}
+#actu-liste-europe a{
+    color: #564E4E;
+    font-weight: bold;
+    text-decoration: none;
+}
+#actu-liste-europe a:hover{
+    color: #E2007A;
+}
+/*Liste actu VDL*/
+#actu-liste-vdl{
+     margin: 0 0 0 13px;
+    width: 285px;
+}
+#actu-liste-vdl h3{
+    font-size: 20px;
+    color: #E2007A;
+    margin: 5px;
+    text-align: center;
+    font-family:Arista,trebuchet-MS,sans-serif;
+}
+#actu-liste-vdl table{
+    border: 3px solid #E2007A;
+    background: #EFEFEF;
+    box-shadow:0px 0px 3px 1px #564E4E;
+    -moz-box-shadow:0px 0px 3px 1px #564E4E;
+    -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+}
+#actu-liste-vdl tbody{}
+#actu-liste-vdl tr{}
+#actu-liste-vdl td{
+    padding: 2px;
+}
+#actu-liste-vdl a{
+    color: #564E4E;
+    font-weight: bold;
+    text-decoration: none;
+}
+#actu-liste-vdl a:hover{
+    color: #E2007A;
+}
+/*Liste annonce RP - Big*/
+#actu-liste-rp-annonce{
+    margin: 0 auto;
+    width: 365px;
+}
+#actu-liste-rp-annonce h3{
+    color: #00ACD1;
+    text-align: center;
+    margin: 5px 0;
+}
+#actu-liste-rp-annonce img{
+    border: 2px solid #E2007A;
+    padding: 1px;
+}
+#actu-liste-rp-annonce a{
+    color: #E2007A;
+    text-decoration: none;
+}
+#actu-liste-rp-annonce a:hover{
+    color: #911381;
+}
+/*Liste annonce RP - Small*/
+#actu-liste-rp-annonce2{}
+#actu-liste-rp-annonce2 img{
+    border: 1px solid #E2007A;
+    padding: 1px;
+}
+#actu-liste-rp-annonce2 a{
+    color: #E2007A;
+    text-decoration: none;
+    text-align: center;
+}
+#actu-liste-rp-annonce2 a:hover{
+    color: #911381;
+}
+#actu-liste-rp-annonce2 table{}
+#actu-liste-rp-annonce2 tbody{}
+#actu-liste-rp-annonce2 tr{}
+#actu-liste-rp-annonce2 td{
+    padding: 1px;
 }
