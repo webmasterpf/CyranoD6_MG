@@ -33,14 +33,28 @@
             <span class="submitted"><?php print $submitted; ?></span>
             <?php endif; ?>
 
-            <div class="content">
+            <div class="content content-archive">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
+         
+           <?php if ($node->field_choix_archives[0]['view']): ?>
+            <div id="archives">
+                    <?php  print $node->field_choix_archives[0]['view']  ?>
             </div>
+            <?php endif;?>
+            
+            </div><!-- /content -->   
 
         </div>
 
         <!--______________COLONNE 3________________ -->
         <div id="colonne-3" class="col3_layout_200_590_200">
+            
+            <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_gasquet_actus.php');
+              ?>
+            
+            
             <!--***********!!!!!!  EXEMPLE DE CHAMP CCK INCLUS AVEC CONDITION !!!!!!!!************ -->
             <?php if ($node->nom_du_champ[0]['view']): ?>
             <div id="nom-css">

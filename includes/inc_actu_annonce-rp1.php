@@ -19,7 +19,7 @@ $viewdisplay_ag3 = $view->set_display('block_3');
 //$args_ldj1 = $view->set_arguments(array($node->nid));
 
 //$emptyTextVue = $view->set_display('block_3')->display_options['empty'];
-$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">TEXTE VIDE A MODIFIER.</div>');
+$emptyText = $view->display_handler->set_option('empty','<p class="txt-vide-actu-globale">Pas de contenu disponible pour le moment.</p>');
 
 //Exécution de le vue
 $view->pre_execute();

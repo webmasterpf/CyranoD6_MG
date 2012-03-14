@@ -54,7 +54,7 @@ if ( in_array($node->type,$lesTypes) ) {
               $tplfile = 'node-'.$node->type.'-'. $term->vid.'-'.$term->tid ;
               $vars['template_files'][] = $tplfile ;
           //drupal_set_message('Term name : '.$term->name,'status');
-           drupal_set_message('Template file : '.$tplfile.'.tpl.php','status');
+          // drupal_set_message('Template file : '.$tplfile.'.tpl.php','status');
           }
     
           
@@ -67,16 +67,17 @@ if ( in_array($node->type,$lesTypes) ) {
 //http://drupal.org/node/823918//
   $node = $vars['node'];
   $vars['template_file'] = 'node-'. $node->nid;
-  $wanted_vid = array('2');//Choisir ici le vid voulu,utiliser ensuite la variable utile dans le node.tpl
-  foreach($node->taxonomy as $term) {
-    if ( $wanted_vid == $term->vid ) {
+  $wanted_vid = array('2','5');//Choisir ici le vid voulu,utiliser ensuite la variable utile dans le node.tpl
+  
+        if ( in_array($term->vid,$wanted_vid) ) {
       $vars['my_taxo_actu'] .= $term->name;
       $vars['my_taxo_ficheform'] .= $term->name;
-       //drupal_set_message('VID trouve : '.$term->vid.'Terme fiche formation :'.$my_taxo_ficheform,'status');
+       //drupal_set_message('VID trouve : '.$term->vid.'-Terme fiche formation :'.$term->name,'status');
+       //drupal_set_message('VID trouve : '.$term->vid.'-Terme actu :'.$term->name,'status');
       //You would need to format this the way you want it displayed, or pass it to a theme function
       //Changer le nom de la variable si l'on ne se sert pas toujours du meme vid
     }
-  }
+  
 }
 ?>
 <?php
