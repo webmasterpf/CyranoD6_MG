@@ -11,28 +11,38 @@
     -moz-box-shadow: 8px 8px 12px #aaa;
     -webkit-box-shadow: 8px 8px 12px #aaa;
     box-shadow: 8px 8px 12px #555;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 .ombrage_bas {
 
     -moz-box-shadow: 2px 2px 5px #aaa;
     -webkit-box-shadow: 2px 2px 5px #aaa;
     box-shadow: 2px 2px 5px #555;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 .table_tr_ombrage_bas{
     -moz-box-shadow: 1px 2px 2px #aaa;
     -webkit-box-shadow: 1px 2px 2px #aaa;
     box-shadow: 1px 2px 2px #555;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 .ombrage_bloc {
 
     -moz-box-shadow: 2px 2px 5px #aaa;
     -webkit-box-shadow: 2px 2px 5px #aaa;
     box-shadow: 2px 2px 5px #555;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 .ombrage_bas_table_actu{
     -moz-box-shadow: 2px 2px 5px #aaa;
     -webkit-box-shadow: 2px 2px 5px #aaa;
     box-shadow: 2px 2px 5px #555;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
  
 /*------- COULEURS DE BASE POUR CSS---------------∕∕
@@ -234,6 +244,8 @@ h6 {
     display: block;
     margin: 5px;
     text-align: center;
+    background: #D0D1D2;
+    padding: 5px;
     
 }
 /*//////////////////////\\\\\\\\\\\\\\\\\\\\\\
@@ -307,6 +319,8 @@ h6 {
     box-shadow:0px 0px 7px 1px #564E4E;
     -moz-box-shadow: 3px #564E4E;
     -webkit-box-shadow: 3px #564E4E;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 #docs_lycee tbody{
      display: block;
@@ -324,6 +338,8 @@ h6 {
 #docs_lycee td a:hover{
     background: #E2007A;
     border-radius: 10px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 #docs_lycee .filefield-icon{
     display: none;
@@ -605,6 +621,8 @@ _______________________________________*/
      box-shadow:0px 0px 7px 1px #564E4E;
     -moz-box-shadow:0px 0px 7px 1px #564E4E;
     -webkit-box-shadow:0px 0px 7px 1px #564E4E;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 #vdl-docs td{
     text-align: center;
@@ -635,16 +653,19 @@ _______________________________________*/
     border: 3px solid #E2007A;
     width: 95%;/*225px;*/
     margin: 0 auto;
-     box-shadow:0px 0px 7px 1px #564E4E;
     -moz-box-shadow:0px 0px 7px 1px #564E4E;
     -webkit-box-shadow:0px 0px 7px 1px #564E4E;
+    box-shadow:0px 0px 7px 1px #564E4E;
+    cellspacing=0;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 #gasquet-actus tr{
     
 }
 #gasquet-actus td{
     display: block;
-    margin: 3px 0;
+    margin: 5px 0;
     text-align: center;
 }
 #gasquet-actus td a{
@@ -656,6 +677,8 @@ _______________________________________*/
 #gasquet-actus td a:hover{
      background: #D0D1D2;
     border-radius: 10px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 /*------------------------
         PAGE
@@ -706,6 +729,8 @@ _______________________________________*/
     box-shadow:0px 0px 3px 1px #564E4E;
     -moz-box-shadow:0px 0px 3px 1px #564E4E;
     -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 #actu-liste-europe tbody{}
 #actu-liste-europe tr{}
@@ -739,6 +764,8 @@ _______________________________________*/
     box-shadow:0px 0px 3px 1px #564E4E;
     -moz-box-shadow:0px 0px 3px 1px #564E4E;
     -webkit-box-shadow:0px 0px 3px 1px #564E4E;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 #actu-liste-vdl tbody{}
 #actu-liste-vdl tr{}

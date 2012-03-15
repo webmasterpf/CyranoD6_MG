@@ -1,5 +1,5 @@
 <?php
-/*
+/* http://drupal.org/node/1463822
  * Inclus la vue , ajoute une differenciation de variable
  * Si vide affiche le texte vide de la vue 
  * $viewname_fl3 = 'NOM_De_LA_VUE';
@@ -9,6 +9,8 @@
 
 ?>
 
+     
+            
 
     <?php
 
@@ -17,10 +19,11 @@ $view = views_get_view ($viewname_ld3);
 $viewdisplay_ld3 = $view->set_display('block_3');
 $args_ld3 = $view->set_arguments(array($node->nid));
 
-//$emptyTextVue = $view->set_display('block_2')->display_options['empty'];
+//$emptyTextVue = $view->display_handler->options['empty'];
 $emptyText = $view->display_handler->set_option('empty','<div class="texte-vide">Pas de documents</div>');
 
 //Exécution de le vue
+$view->build();
 $view->pre_execute();
 $view->execute();
 

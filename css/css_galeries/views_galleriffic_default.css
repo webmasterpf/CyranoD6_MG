@@ -10,7 +10,7 @@
 
 #galleriffic .content {
   float: right;
-  width: 505px;
+  width: 65%;/*Largeur grande image*/
 }
 #galleriffic .content a, #galleriffic .navigation a {
   text-decoration: none;
@@ -20,7 +20,7 @@
   text-decoration: underline;
 }
 #galleriffic .controls {
-  width: 508px;
+  width: 65%;/*Largeur des boutons de controle*/
 }
 #galleriffic .controls a {
   padding: 0 5px;
@@ -80,7 +80,7 @@
   border: 1px solid #ccc;
 }
 #galleriffic ul.thumbs li.selected a.thumb {
-   background: #000;
+   background:#E1017B;/*Style vignette active*/
 }
 #galleriffic a.thumb:focus {
   outline: none;

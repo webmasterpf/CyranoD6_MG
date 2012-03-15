@@ -7,6 +7,7 @@
     <meta name="google-site-verification" content="" />
     <meta name="y_key" content=""/>
     <meta name="msvalidate.01" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <?php print $head; ?>
     <?php print $styles; ?>
 

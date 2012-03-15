@@ -1,5 +1,5 @@
 <?php
-/*
+/* http://drupal.org/node/1463822
  * Inclus la vue , ajoute une differenciation de variable
  * Si vide affiche le texte vide de la vue 
  * $viewname_fl3 = 'NOM_De_LA_VUE';
