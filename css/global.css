@@ -863,7 +863,7 @@ _______________________________________*/
 #archives img{
     border: #911381 1px solid;
     float: right;
-    margin: 1px;
+    margin: 2px 4px;
     padding: 2px;
 }
 #archives tr a{
@@ -874,6 +874,12 @@ _______________________________________*/
 }
 #archives tr a:hover{
     color: white;
+}
+#archives .views-field-tid{
+    text-align: right;
+    font-size: 10px;
+    font-style: italic;
+   
 }
 /*------------------------------------
         PAGE CONTENU ACTUALITES
