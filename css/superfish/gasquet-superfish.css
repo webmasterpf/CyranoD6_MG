@@ -308,7 +308,7 @@ li.sfHover > a > .sf-sub-indicator {
 }
 .sf-navbar a,.sf-navbar a:visited {
   border: none;
-  width: auto;/*largeur des a*/
+  width: 130px;/*largeur des a*/
   text-align: center;
   text-transform:uppercase;
   font-weight: bold;

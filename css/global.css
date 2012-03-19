@@ -839,6 +839,26 @@ _______________________________________*/
     border-left: 1px solid #E2007A;
     padding: 5px;
 }
+/*Bloc filtre exposé archives*/
+.archives-exposed{
+    width: 405px;
+    margin: 0 auto;
+}
+.archives-exposed .views-widget-filter-field_date_evenement_value{
+    width: 150px;
+}
+.archives-exposed .views-exposed-widgets{
+    width: inherit;
+    padding: 5px;
+    margin: 5px;
+    background: #EFEFEF;
+    border: #E2007A solid 2px;
+    box-shadow: inset 0px 0px 3px #606171;
+}
+.archives-exposed{}
+.archives-exposed{}
+
+/*Liste des archives*/
 #archives{}
 #archives table{
     width: 98%

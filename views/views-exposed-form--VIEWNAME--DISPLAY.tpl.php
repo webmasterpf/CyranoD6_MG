@@ -21,8 +21,7 @@
     print $q;
   ?>
 <?php endif; ?>
-<!-- CUSTOM TPL FOR EXPOSED FILTERS -->
-<div class="views-exposed-form archives-exposed">
+<div class="views-exposed-form">
   <div class="views-exposed-widgets clear-block">
     <?php foreach ($widgets as $id => $widget): ?>
       <div class="views-exposed-widget views-widget-<?php print $id; ?>">
