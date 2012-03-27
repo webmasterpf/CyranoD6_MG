@@ -6,7 +6,7 @@
         </div> <!-- /footer -->
       <?php endif; ?>
         <div id="bloc_stats">
-      V&eacute;rifier les codes pour les stats
+      
       <?php
 global $theme_path;
 include ($theme_path.'/js/code_stats.php');

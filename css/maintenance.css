@@ -23,7 +23,7 @@
 }
 /*STYLE MAINTENANCE OFFLINE*/
 #name-and-slogan-offline, #site-slogan-offline{
-     background: #ADC91F;
+     background: #E2007A;
     color: #606070;
     padding: 5px;
     -moz-border-radius: 5px;
@@ -50,7 +50,7 @@
 }
 /*STYLE MAINTENANCE */
 #name-and-slogan-maintenance, #site-slogan-maintenance{
-    background: #ADC91F;
+    background: #E2007A;
     color: #606070;
     padding: 5px;
     -moz-border-radius: 5px;
@@ -60,6 +60,9 @@
 #site-name-maintenance{
     margin: 0;
     padding: 15px;
+}
+#site-slogan-maintenance{
+    color: white;
 }
 #contentPage-maintenance{
 
@@ -82,6 +85,15 @@
     padding: 5px;
     width: 75%;
     margin: 0 auto;
+}
+#middle-content-maintenance a{
+    color: #E2007A;
+    text-decoration: none;
+    padding: 2px;
+}
+#middle-content-maintenance a:hover{
+    background: #E2007A;
+    color: white;
 }
 #footer-maintenance{
     margin:0 auto;

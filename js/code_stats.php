@@ -1,11 +1,10 @@
-<h2>Changer les codes stats</h2>
 <!--  ######## CODE STATS OK !!!!!!!!!!!!-->
 <!-- code XITI  -->
 <div id="xiti-logo" style="visibility: hidden;">
 <script type="text/javascript">
 <!--
-document.write('<a href="http://www.xiti.com/xiti.asp?s=xxxx" title="WebAnalytics">');
-Xt_param = 's=xxxx&p=<?php echo $head_title; ?>';
+document.write('<a href="http://www.xiti.com/xiti.asp?s=500654" title="WebAnalytics">');
+Xt_param = 's=500654&p=<?php echo $head_title; ?>';
 try {Xt_r = top.document.referrer;}
 catch(e) {Xt_r = document.referrer; }
 Xt_h = new Date();
@@ -19,14 +18,14 @@ document.write(Xt_i+'&ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'"></a
 </script>
 <noscript>
 <div id="xiti-logo-noscript">
-<a href="http://www.xiti.com/xiti.asp?s=xxx" title="WebAnalytics" >WebAnalytics solution by <img width="39" height="25" src="http://logv11.xiti.com/hit.xiti?s=471342&amp;p=<?php echo $url; ?>&amp;" alt="WebAnalytics" /></a>
+<a href="http://www.xiti.com/xiti.asp?s=xxx" title="WebAnalytics" >WebAnalytics solution by <img width="39" height="25" src="http://logv11.xiti.com/hit.xiti?s=500654&amp;p=<?php echo $url; ?>&amp;" alt="WebAnalytics" /></a>
 </div>
 </noscript>
 </div>
 <!-- Start Quantcast tag -->
 <script type="text/javascript">
 _qoptions={
-qacct:"xxxx"
+qacct:"p-behZUd_cXqsz-"
 };
 </script>
 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
@@ -37,7 +36,7 @@ qacct:"xxxx"
 <!-- Woopra Code Start -->
 <script type="text/javascript" src="//static.woopra.com/js/woopra.v2.js"></script>
 <script type="text/javascript">
-woopraTracker.setDomain("lycee-XXX.fr");
+woopraTracker.setDomain("lycee-marie-gasquet.eu");
 woopraTracker.track();
 </script>
 <!-- Woopra Code End -->

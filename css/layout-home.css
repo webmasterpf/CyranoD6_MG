@@ -134,6 +134,7 @@ text-transform: uppercase;
 	width:990px;
 	clear:none;
         background: url(../images/bg_content_etoile.gif) no-repeat left bottom;
+        padding: 25px 0 0 0;/*A cause du rollover superfish*/
 	
 }
 /********************/

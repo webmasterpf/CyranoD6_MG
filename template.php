@@ -1,4 +1,3 @@
-<?php/*_______________FONCTIONS POUR THEMING NODE____________*/?>
 <?php
 // permet template suggestions avec page-
 function phptemplate_preprocess(&$vars, $hook)
@@ -95,7 +94,6 @@ function phptemplate_preprocess_page(&$vars) {
   }
 }
 ?>
-<?php/*_______________FONCTIONS UTILITAIRES____________*/?>
 <?php
 // permet le debugage de php avec drupal
 function debug_print($var) {
@@ -103,8 +101,10 @@ function debug_print($var) {
 }
 
 //Webform "You have already submitted this form." message off - http://drupal.org/node/1096226
-function cyranod6_mg_webform_view_messages($node, $teaser, $page, $submission_count, $limit_exceeded, $allowed_roles, $closed, $cached) {
-  return theme_webform_view_messages($node, $teaser, $page, 0, $limit_exceeded, $allowed_roles, $closed, $cached);
+function cyranod6_mg_webform_view_messages($node, $teaser, $page, $submission_count, $user_limit_exceeded, $total_limit_exceeded,
+$allowed_roles, $closed, $cached) {
+return theme_webform_view_messages($node, $teaser, $page, 0, $user_limit_exceeded, $total_limit_exceeded,
+$allowed_roles, $closed, $cached);
 }
 ?>
 <?php

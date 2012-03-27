@@ -879,7 +879,9 @@ _______________________________________*/
     display: inline-block;
     width: 100%;
 }
-
+#archives td:hover{
+    border-right: #E2007A solid 2px;
+}
 #archives img{
     border: #911381 1px solid;
     float: right;
@@ -979,4 +981,16 @@ _______________________________________*/
 }
 #actu-docs .filefield-icon{
     display: none;
+}
+
+/*------------------------------------
+        PAGE ERREUR
+_______________________________________*/
+
+#erreur-illustration{}
+#erreur-illustration img{
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #4F454A;
+    padding: 1px;
 }

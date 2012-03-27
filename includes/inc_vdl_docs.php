@@ -19,7 +19,7 @@ $view = views_get_view ($viewname_ld3);
 $viewdisplay_ld3 = $view->set_display('block_3');
 $args_ld3 = $view->set_arguments(array($node->nid));
 
-//$emptyTextVue = $view->display_handler->options['empty'];
+//$emptyTextVue = $view->display_handler->get_option('empty');
 $emptyText = $view->display_handler->set_option('empty','<div class="texte-vide">Pas de documents</div>');
 
 //Exécution de le vue

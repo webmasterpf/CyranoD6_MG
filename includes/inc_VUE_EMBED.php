@@ -6,6 +6,7 @@
  * $viewdisplay_fl3 = $view->set_display('DISPLAY_CHOISI');
  * Si besoin d'argument, utiliser la ligne dédiée $args et l'ajouter comme ceci $view->preview($viewdisplay_fl3, $args)
  * Modifer les classes , le texte vide selon besoin
+ * Le texte vide peut être réglé dans Views UI directment avec $emptyTextVue
  */
 
 ?>
@@ -18,7 +19,7 @@ $view = views_get_view ($viewname_fl3);
 $viewdisplay_fl3 = $view->set_display('block_3');
 //$args_ldj1 = $view->set_arguments(array($node->nid));
 
-$emptyTextVue = $view->set_display('block_3')->display_options['empty'];
+$emptyTextVue = $view->display_handler->get_option('empty');
 $emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">TEXTE VIDE A MODIFIER.</div>');
 
 //Exécution de le vue
@@ -35,8 +36,9 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-     $outputEmpty = '<div id="MODIFIER"><h3 class="classe-h3">'.$view->get_title().'</h3>' .$emptyText.'<br>'.$emptyTextVue.'</div>';
-    // drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
+     $outputEmpty = '<div id="MODIFIER"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyText.'</div>';
+     $outputEmpty = '<div id="MODIFIER"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyTextVue.'</div>';
+    // drupal_set_message('$EmptyTextVue : '.$emptyTextVue.'status');
      //Affichage du texte vide
   print $outputEmpty;
 }

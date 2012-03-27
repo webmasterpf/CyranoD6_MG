@@ -51,7 +51,13 @@ include ($theme_path.'/includes/inc_header.php');
          <?php print $feed_icons; ?>
     </div><!-- /#content-bottom -->
     <?php endif; ?>
-	
+
+     <!-- ______________________ CONTENU BAS _______________________ -->
+<?php if ($content_bottom): ?>
+            <div id="content-bottom">
+              <?php print $content_bottom; ?>
+            </div><!-- /#content-bottom -->
+          <?php endif; ?>
 	
 	 </div> <!-- /mainPage -->
     <?php

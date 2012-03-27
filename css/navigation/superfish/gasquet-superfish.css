@@ -34,7 +34,7 @@
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
   left: 0;
-  top: 2.5em; /* match top ul list item height */
+  top: 3.9em; /* position de UL sub-item par rapport à UL 1er niveau*/
   z-index: 99;
   background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
 }
@@ -309,6 +309,7 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-navbar a,.sf-navbar a:visited {
   border: none;
   width: 130px;/*largeur des a*/
+  height: auto;/*hauteur des a*/
   text-align: center;
   text-transform:uppercase;
   font-weight: bold;
@@ -317,10 +318,12 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-navbar a:hover{
     color: #E2007A;/*couleur des a:hover */
     background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
+    height: 2.4em;
 }
 .sf-navbar a.active{
      color: #E1017B; /*couleur du lien courant- tester sur FF3 IE8 SAFARI 4 OPERA 10*/
      background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
+     height: 2.4em;
 }
 ul.sf-navbar .current ul,
 ul.sf-navbar ul li:hover ul,
