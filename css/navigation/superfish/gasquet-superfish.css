@@ -268,13 +268,13 @@ li.sfHover > a > .sf-sub-indicator {
 /*----- NAVBAR NAVIGATION HORIZONTALE ---------------*/
 /*** Adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ***/
 .sf-navbar {
-  height: 30px;
-  padding-bottom: 2.0em !important;
+  height: 1.5em;
+  padding-bottom: 2.4em !important;
   padding-left: 0 !important;
   position: relative;
   width: 100%;
   z-index: 97;
-  background: #EFEFEF; /*couleur du bg de la barre principale*/
+  background: #EFEFEF;/*BG Global*/
 }
 .sf-navbar li {
   position: static;
@@ -309,7 +309,7 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-navbar a,.sf-navbar a:visited {
   border: none;
   width: 130px;/*largeur des a*/
-  height: auto;/*hauteur des a*/
+  height: 2.4em;/*hauteur des a*/
   text-align: center;
   text-transform:uppercase;
   font-weight: bold;
@@ -318,12 +318,12 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-navbar a:hover{
     color: #E2007A;/*couleur des a:hover */
     background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
-    height: 2.4em;
+   
 }
 .sf-navbar a.active{
      color: #E1017B; /*couleur du lien courant- tester sur FF3 IE8 SAFARI 4 OPERA 10*/
      background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
-     height: 2.4em;
+    
 }
 ul.sf-navbar .current ul,
 ul.sf-navbar ul li:hover ul,

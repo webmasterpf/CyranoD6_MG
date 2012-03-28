@@ -6,21 +6,7 @@ include ($theme_path.'/includes/inc_header.php');
   
       <div id="contentPage">
       
-   
-      
-       <!-- ______________________ COLONNE GAUCHE _______________________ -->
-		
-			  <?php if ($left): ?>
-         <div id="left-content">
-            <?php print $left; ?>
-          </div>
-             <?php endif; ?> <!-- /sidebar-left -->
-		
-		<!--fin du contenu gauche -->
-        
-        <div id="content-inner" class="inner column center">
-		
-			<?php if ($breadcrumb || $title ||$content_top ): ?>
+   	<?php if ($breadcrumb || $title ||$content_top ): ?>
             <div id="content-top">
 			 <?php print $breadcrumb; ?>
 			 <?php if ($title): ?>
@@ -47,6 +33,20 @@ include ($theme_path.'/includes/inc_header.php');
 
             </div> <!-- /#content-header -->
           <?php endif; ?>
+      
+       <!-- ______________________ COLONNE GAUCHE _______________________ -->
+		
+			  <?php if ($left): ?>
+         <div id="left-content">
+            <?php print $left; ?>
+          </div>
+             <?php endif; ?> <!-- /sidebar-left -->
+		
+		<!--fin du contenu gauche -->
+        
+        <div id="content-inner" class="inner column center">
+		
+		
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
           <div id="middle-content">
             <?php print $content; ?>

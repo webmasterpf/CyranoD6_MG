@@ -4,7 +4,7 @@ include ($theme_path.'/includes/inc_header.php');
 ?>
  <!-- ______________________ LAYOUT PAGE contenu_actualites OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
-
+<div id="contentPage">
   
           <!-- ______________________ CONTENT TOP _______________________ -->
       <?php if ($breadcrumb ||$content_top): ?>
@@ -21,10 +21,7 @@ include ($theme_path.'/includes/inc_header.php');
 	              <?php print $content_top_node; ?>
             </div> <!-- /#content-top-node -->
             <?php endif; ?>
-  
-  
-  
-      <div id="contentPage">
+       
 
 
        <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->

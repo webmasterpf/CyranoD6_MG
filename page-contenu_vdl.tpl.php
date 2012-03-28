@@ -4,7 +4,7 @@ include ($theme_path.'/includes/inc_header.php');
 ?>
  <!-- ______________________ LAYOUT PAGE VDL Sortie OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
-
+<div id="contentPage">
   
           <!-- ______________________ CONTENT TOP _______________________ -->
       <?php if ($breadcrumb ||$content_top): ?>
@@ -24,7 +24,7 @@ include ($theme_path.'/includes/inc_header.php');
   
   
   
-      <div id="contentPage">
+      
 
 
        <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->

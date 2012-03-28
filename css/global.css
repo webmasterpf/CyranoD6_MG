@@ -304,7 +304,7 @@ h6 {
     margin: 0 auto;
 }
 #docs_lycee h3{
-    font-family:Arista,trebuchet-MS,sans-serif;
+    font-family:Arista,trebuchet MS,sans-serif;
     text-align: center;
     color: #950F7E;
     padding: 5px 0;
@@ -366,24 +366,38 @@ _______________________________________*/
     color: white;
     text-decoration: none;
 }
-.pageficheform_content_col1 h3,.pageficheform_content_col2 h3{}
+.pageficheform_content_col1 h2,.pageficheform_content_col2 h2{
+    color: #00AAD5;
+    font-size: 16px;
+    font-family:trebuchet MS,sans-serif;
+}
+.pageficheform_content_col1 h3,.pageficheform_content_col2 h3{
+    font-size: 14px;
+}
+.pageficheform_content_col1 h4,.pageficheform_content_col2 h4{
+    font-size: 12px;
+    color: #ADC91F;
+}
+.pageficheform_content_col1 ul,.pageficheform_content_col2 ul{
+    list-style: circle inside;
+}
 .pageficheform_content_col1 strong,.pageficheform_content_col2 strong{
     color: #00ACD1;
 }
 .pageficheform_content_col1,.pageficheform_content_col2{}
 #deco-ficheform{
-    border: 3px solid #E2007A;
-     box-shadow:0px 0px 7px 1px #564E4E;
-    -moz-box-shadow: 3px #564E4E;
-    -webkit-box-shadow: 3px #564E4E;
     margin: 5px 0;
 }
 #deco-ficheform img{
  width: 460px;
+ border: 3px solid #E2007A;
+ box-shadow:0px 0px 7px 1px #564E4E;
+ -moz-box-shadow: 3px #564E4E;
+ -webkit-box-shadow: 3px #564E4E;
 }
 #complement-ficheform p{
-    font-family:Arista,trebuchet-MS,sans-serif;
-    font-size: 13px;
+    font-family:Arista,trebuchet MS,sans-serif;
+    font-size: 18px;
     color: #911381;
 }
 #complement-ficheform{}
@@ -422,6 +436,15 @@ _______________________________________*/
 _______________________________________*/
 .titre_page-pole{
     text-align: center;
+}
+.views-field-field-complement-ficheform-value{
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+#filiere-techno table,#filiere-pro table,#filiere-bts table{
+    width: 300px;
 }
 /*Filiere Techno*/
 #filiere-techno{
@@ -544,6 +567,7 @@ _______________________________________*/
     background:#EFEFEF;
     border: 2px solid #E2007A;
     padding: 10px;
+    margin: 10px 0;
 }
 .taxo-page{}
 .taxo-page a{
@@ -559,7 +583,10 @@ _______________________________________*/
     width: 500px;
 }
 .taxo-page tbody{}
-.taxo-page tr{}
+.taxo-page tr{
+    display: block;
+    margin: 5px 0;
+}
 .taxo-page td{}
 /*------------------------------------
         PAGE CONTENU VDL

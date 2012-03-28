@@ -1,13 +1,7 @@
 /* $Id: superfish-navbar.css,v 1.3 2010/03/27 09:18:40 mehrpadin Exp $ */
 /*** Adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ***/
 .sf-navbar {
-  height: 2.5em;
-  padding-bottom: 2.5em !important;
-  padding-left: 0 !important;
-  position: relative;
-  width: 100%;
-  z-index: 97;
-  background: #EFEFEF;/*BG Global*/
+  
 }
 .sf-navbar li {
   position: static;

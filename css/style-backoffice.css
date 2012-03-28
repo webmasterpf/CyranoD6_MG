@@ -8,22 +8,24 @@
 
 
 /*----Navigation backoffice------*/
-#block-user-1{
+.block-user{
     background: url(../images/bg_nav_backoffice.gif) repeat scroll left top;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 0 auto;
+    width: 95%;
+    border: #E1017B 2px solid;
 }
-#block-user-1 a{
+.block-user a{
     color:#EB512F;
     text-decoration: none;
     background: white;
     padding: 0 2px;
 }
-#block-user-1 a:hover{
+.block-user a:hover{
     background: #EB512F;
     color: white;
 }
-#block-user-1{}
+.block-user{}
 
 .item-list ul li {
 margin:0 0 0.25em 1.5em;

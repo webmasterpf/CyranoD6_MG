@@ -71,7 +71,7 @@ body {
 
 #contentPage {
 	margin:0 auto;
-	padding:25px 0 0 0;/*A cause du rollover superfish*/
+	padding:0;
 	width: 990px;
 	background-color:transparent;
 }
