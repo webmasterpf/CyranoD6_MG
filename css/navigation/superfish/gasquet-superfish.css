@@ -313,7 +313,7 @@ li.sfHover > a > .sf-sub-indicator {
   text-align: center;
   text-transform:uppercase;
   font-weight: bold;
-  color: #95107D;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B*/
+  color: #606070;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B anthracite : #606070*/
 }
 .sf-navbar a:hover{
     color: #E2007A;/*couleur des a:hover */

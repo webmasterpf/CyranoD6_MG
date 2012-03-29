@@ -264,14 +264,28 @@ h6 {
 
 
 /*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
-#colonne-2{
-
-
+#colonne-2 p{}
+#colonne-2 a{}
+#colonne-2 a:hover{}
+#colonne-2 h2{}
+#colonne-2 h3{}
+#colonne-2 h4{}
+#colonne-2 ul{
+    list-style: inside circle;
 }
+#colonne-2 li{}
+#colonne-2 hr{}
+
 /*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
-#colonne-3{
-}
-
+#colonne-3 p{}
+#colonne-3 a{}
+#colonne-3 a:hover{}
+#colonne-3 h2{}
+#colonne-3 h3{}
+#colonne-3 h4{}
+#colonne-3 ul{}
+#colonne-3 li{}
+#colonne-3 hr{}
 /*¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
 -------- PAGE LYCEE NODE.TPL ---------------*/
 #middle-content-page-lycee a{
@@ -1020,4 +1034,25 @@ _______________________________________*/
     display: block;
     border: 1px solid #4F454A;
     padding: 1px;
+}
+/*------------------------------------
+        MESSAGE CONSTRUCTION
+_______________________________________*/
+#construction{
+background: #DFDFDF;
+width:95%;
+margin: 0 auto;
+}
+#construction{
+    text-align: center;
+    
+}
+#construction a{
+    color: #E2007A;
+    text-decoration: none;
+    padding: 2px;
+}
+#construction a:hover{
+    background: #E2007A;
+    color: white;
 }
