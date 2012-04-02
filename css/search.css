@@ -39,6 +39,28 @@
     color: white;
     background: #93117E;
 }
+/* Style de la page resultats de recherche*/
+.search-page{
+    background: transparent;
+    border-left: #E2007A solid 1px;
+}
+.search-page a{
+    color: #E2007A;
+    font-weight: bold;
+}
+.search-page a:hover{
+    text-decoration: none;
+}
+.search-page h2{
+       font-family:Arista,trebuchet MS,sans-serif;
+    font-size: 24px;
+    color: #911381;
+    margin: 0 0 10px 5px;
+}
+.search-page ul{}
+.search-page li{
+    list-style-position: inside;
+}
 /*champ recherche header*/
 #edit-search-theme-form-1-wrapper{
     width: auto;

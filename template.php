@@ -36,6 +36,7 @@ function cyranod6_mg_preprocess_node(&$vars, $hook) {
  $vars['col_G1'] = theme('blocks', 'col_G1');
  $vars['col_G2'] = theme('blocks', 'col_G2');
  $vars['col_G3'] = theme('blocks', 'col_G3');
+ $vars['actuAssociation']= theme('blocks', 'actuAssociation');
  //
 //Partie template node.tpl
 $node = $vars['node'];

@@ -300,7 +300,14 @@ h6 {
 #middle-content-page-lycee strong{
     color: #E2007A;
 }
-#middle-content-page-lycee {}
+#middle-content-page-lycee p,#middle-content-page-lycee ul{
+    padding: 3px;
+    
+}
+#middle-content-page-lycee li{
+    list-style-position: inside;
+    text-indent: 5px;
+}
 #diapo_lycee{
     display: block;
     margin: 0 auto;
@@ -1055,4 +1062,51 @@ margin: 0 auto;
 #construction a:hover{
     background: #E2007A;
     color: white;
+}
+/*------------------------
+BLOC FLUX RSS ACTU DE L'ASSO
+-----------------------------*/
+#block-aggregator-feed-1 h3{
+    color: #E2007A;
+    font-family: arista,Trebuchet-MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+     font-size: 18px;
+}
+#block-aggregator-feed-1 ul{
+    list-style: none;
+    background:  url(../images/bg_doc_utile_rp.jpg) repeat left top ;
+    margin: 0 auto;
+    width: 325px;
+    padding: 20px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+}
+#block-aggregator-feed-1 ul li{
+    margin: 5px 0;
+    list-style: none;
+
+}
+#block-aggregator-feed-1 li a{
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+    width: 280px;
+    margin: 0 auto;
+    color: white;
+    background: #E2007A;
+
+}
+#block-aggregator-feed-1 li a:hover{
+      background: white;
+       color: #E2007A;
+    text-decoration: none;
 }

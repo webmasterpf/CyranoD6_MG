@@ -54,6 +54,9 @@
               include ($theme_path.'/includes/inc_actu_annonce-rp2.php');
               ?>
            
+              <?php if ($actuAssociation): ?>
+            <div class="rss-pf"><?php print $actuAssociation; ?></div>
+            <?php endif; ?>
 
         </div>
 

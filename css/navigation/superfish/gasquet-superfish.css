@@ -100,7 +100,7 @@ ul.sf-menu li li li.sfHover ul {
   height: 10px;
   text-indent: -999em;
   overflow: hidden;
-  background: url('../images/arrows-ffffff.png') no-repeat -10px -100px;
+  background: url('../superfish/images/arrows-ffffff.png') no-repeat -10px -100px;
 }
 a > .sf-sub-indicator {  /* give all except IE6 the correct values */
   top: .8em;
@@ -133,7 +133,7 @@ li.sfHover > a > .sf-sub-indicator {
 
 /*** shadows for all but IE6 ***/
 .sf-shadow ul {
-  background: url('../images/shadow.png') no-repeat bottom right;
+  background: url('../superfish/images/shadow.png') no-repeat bottom right;
   padding: 0 8px 9px 0;
   -moz-border-radius-bottomleft: 17px;
   -moz-border-radius-topright: 17px;
@@ -155,7 +155,7 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-menu.rtl .sf-sub-indicator {
   left: .75em !important;
   right: auto;
-  background: url('../images/arrows-ffffff-rtl.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+  background: url('../superfish/images/arrows-ffffff-rtl.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 .sf-menu.rtl a > .sf-sub-indicator {  /* give all except IE6 the correct values */
   top: .8em;
@@ -236,7 +236,7 @@ li.sfHover > a > .sf-sub-indicator {
 }
 /*** shadows for all but IE6 ***/
 .sf-menu.rtl .sf-shadow ul {
-  background: url('../images/shadow.png') no-repeat bottom left;
+  background: url('../superfish/images/shadow.png') no-repeat bottom left;
   padding: 0 0 9px 8px;
   -moz-border-radius-bottomright: 17px;
   -moz-border-radius-topleft: 17px;
