@@ -177,7 +177,7 @@ padding:10px 0 0;
 }
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
-background:none repeat scroll 0 0 #1F1F1F;
+background: #E2007A;
 
 height:115px;
 bottom:12px;
@@ -198,7 +198,7 @@ color: white;
 z-index:20;
 }
 #contenu-diapo h2{
-color: orange;
+color: #1F1F1F;
 padding:5px;
 font-family: Arista,Trebuchet MS,sans serif;
 

@@ -13,9 +13,7 @@
 
     <?php print $scripts; ?>
     <script src="<?php print $base_path . path_to_theme() ?>/js/typos.js" type="text/javascript" charset="utf-8"></script>
-       <!--[if IE]>
-      <link rel="stylesheet" type="text/css" href="<?php print $base_path . path_to_theme() ?>/css/for_ie.css" />
-      <![endif]-->
+     
 
   </head>
 
