@@ -267,11 +267,12 @@ h6 {
 #colonne-2 p{}
 #colonne-2 a{}
 #colonne-2 a:hover{}
-#colonne-2 h2{}
+#colonne-2 h2{margin: 5px;color: #911381;}
 #colonne-2 h3{}
 #colonne-2 h4{}
 #colonne-2 ul{
     list-style: inside circle;
+    margin: 5px;
 }
 #colonne-2 li{}
 #colonne-2 hr{}
@@ -617,6 +618,9 @@ _______________________________________*/
 }
 .vdl-content p{
     padding: 5px;
+}
+.vdl-content strong,.vdl-content b{
+    color: #E2007A;
 }
 #vdl-passerelle a{
     text-decoration: none;
@@ -1126,7 +1130,7 @@ Liste Actus pour homepage
     border: 0;
 }
 #table-actus-hp thead th,#table-actus-hp2 thead th{
-    border-bottom: 3px solid #AEC81F;
+    border-bottom: 3px solid #E2007A;
 }
 #table-actus-hp tbody, #table-actus-hp2 tbody{}
 #table-actus-hp tr, #table-actus-hp2 tr{
@@ -1139,10 +1143,10 @@ Liste Actus pour homepage
     margin: 2px 0;
     padding: 5px;
     display: block;
-    border-bottom: 1px solid #E2001A;
+    border-bottom: 1px solid #E2007A;
 }
 #table-actus-hp td:hover, #table-actus-hp2 td:hover{
-    background: #E2001A;
+    background: #E2007A;
 }
 #table-actus-hp p,#table-actus-hp2 p{}
 #table-actus-hp a, #table-actus-hp2 a{
@@ -1161,3 +1165,10 @@ Liste Actus pour homepage
     float: right;
     font-style: italic;
 }
+/*------------------------
+_____ DEFILANT HP ________
+--------------------------*/
+#annonce{color: #E2017B;display: block;font-size: 16px;font-weight: bold;margin: 5px auto;
+padding: 11px 0;text-align: center;width: 915px;border: 2px solid;}
+#annonce a{color: #93117E;text-decoration: none;font-weight: bold;}
+#annonce a:hover{text-decoration: underline;}
