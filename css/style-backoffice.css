@@ -15,6 +15,14 @@
     width: 95%;
     border: #E1017B 2px solid;
 }
+#block-user-1 h3,#block-boost-status h3{color: #E2017B;
+text-align: center;
+padding: 3px;
+width: 60%;
+display: block;
+margin: 0 auto;
+border-radius: 6px 6px 6px 6px;}
+
 .block-user a{
     color:#EB512F;
     text-decoration: none;
@@ -51,3 +59,12 @@ padding:10px 0;
 .sticky-table a{
     color: red;
 }
+/*
+== STYLE TABS EDITION ========
+*/
+.tabs{}
+ul.primary{}
+ul.primary li{}
+ul.primary li.active a{color: #EB512F;}
+ul.primary li a{color: #606071;}
+ul.primary li a:hover{color:#E2017B;}

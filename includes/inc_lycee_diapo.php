@@ -17,9 +17,8 @@ $view = views_get_view ($viewname_di1);
 $viewdisplay_di1 = $view->set_display('block_1');
 $args_di1 = $view->set_arguments(array($node->nid));
 
-$emptyTextVue = $view->display_handler->get_option('empty');
-$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe"></div>');
-
+$emptyTextVue = $view->display_handler->get_handlers('empty');
+$emptyText = $view->display_handler->set_option('empty', '<div class="ma-classe">Pas de contenu à afficher.</div>');
 //Exécution de le vue
 $view->pre_execute();
 $view->execute();
@@ -34,9 +33,12 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-     //$outputEmpty = '<div id="diapo_lycee"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>'.$emptyText.'</div>';
-     $outputEmpty = '<div id="diapo_lycee"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>'.$emptyTextVue.'</div>';
-    // drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
+    // $outputEmpty = '<div id="diapo_lycee"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>'.$emptyText.'</div>';
+    // $outputEmpty = '<div id="diapo_lycee"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>'.$emptyTextVue.'</div>';
+    // drupal_set_message('Vue : '.$viewname_di1,'status');
+     //drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status'. var_dump($emptyTextVue));
+     //drupal_set_message('$EmptyText : '.$emptyText,'status');
+      
      //Affichage du texte vide
   print $outputEmpty;
 }
