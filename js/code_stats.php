@@ -22,13 +22,24 @@ document.write(Xt_i+'&ref='+Xt_r.replace(/[<>"]/g, '').replace(/&/g, '$')+'"></a
 </div>
 </noscript>
 </div>
-<!-- Woopra Code Start -->
-<script type="text/javascript" src="//static.woopra.com/js/woopra.v2.js"></script>
+<!-- Start of Woopra Code -->
 <script type="text/javascript">
-woopraTracker.setDomain("lycee-marie-gasquet.eu");
-woopraTracker.track();
+function woopraReady(tracker) {
+    tracker.setDomain('lycee-marie-gasquet.eu');
+    tracker.setIdleTimeout(1800000);
+    tracker.track();
+    return false;
+}
+(function() {
+    var wsc = document.createElement('script');
+    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    wsc.type = 'text/javascript';
+    wsc.async = true;
+    var ssc = document.getElementsByTagName('script')[0];
+    ssc.parentNode.insertBefore(wsc, ssc);
+})();
 </script>
-<!-- Woopra Code End -->
+<!-- End of Woopra Code -->
 <!-- Quantcast Tag -->
 <script type="text/javascript">
 var _qevents = _qevents || [];
