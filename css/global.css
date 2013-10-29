@@ -708,9 +708,9 @@ _______________________________________*/
     -moz-box-shadow:0px 0px 7px 1px #564E4E;
     -webkit-box-shadow:0px 0px 7px 1px #564E4E;
     box-shadow:0px 0px 7px 1px #564E4E;
-    cellspacing=0;
+    cellspacing: 0;
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
-   position: relative;
+    position: relative;
 }
 #gasquet-actus tr{
     
