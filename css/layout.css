@@ -91,7 +91,12 @@ height: 100%;
     background-color: #999;
     margin: 0 auto;
     padding: 5px;  
-        }	
+}	
+
+#views_slideshow_cycle_teaser_section_Defilant_accueil-block_1{
+    margin: 0 auto;
+    width: 98%;//inutile
+}
 /*/// debut des colonnes ///*/
 #left-content{
 	float:left;

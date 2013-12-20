@@ -1124,20 +1124,20 @@ Liste Actus pour homepage
     font-size: 22px;
 }
 #HPGauche2 .view-empty{text-align: center;}
-#table-actus-hp, #table-actus-hp2{
+.table-actus-hp, .table-actus-hp2{
     width: 400px;
     margin: 0 auto;
     border: 0;
 }
-#table-actus-hp thead th,#table-actus-hp2 thead th{
+.table-actus-hp thead th,.table-actus-hp2 thead th{
     border-bottom: 3px solid #E2007A;
 }
-#table-actus-hp tbody, #table-actus-hp2 tbody{}
-#table-actus-hp tr, #table-actus-hp2 tr{
+.table-actus-hp tbody, .table-actus-hp2 tbody{}
+.table-actus-hp tr, .table-actus-hp2 tr{
     margin: 9px;
     display: block;
 }
-#table-actus-hp td, #table-actus-hp2 td{
+.table-actus-hp td, .table-actus-hp2 td{
     background: white;
     border: 0;
     margin: 2px 0;
@@ -1145,22 +1145,22 @@ Liste Actus pour homepage
     display: block;
     border-bottom: 1px solid #E2007A;
 }
-#table-actus-hp td:hover, #table-actus-hp2 td:hover{
+.table-actus-hp td:hover, .table-actus-hp2 td:hover{
     background: #E2007A;
 }
-#table-actus-hp p,#table-actus-hp2 p{}
-#table-actus-hp a, #table-actus-hp2 a{
+.table-actus-hp p,.table-actus-hp2 p{}
+.table-actus-hp a, .table-actus-hp2 a{
     color: #606070;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
     display: block;
 }
-#table-actus-hp a:hover, #table-actus-hp2 a:hover{
+.table-actus-hp a:hover, .table-actus-hp2 a:hover{
     text-decoration: underline;
     color: white;
 }
-#table-actus-hp span.date-display-single, #table-actus-hp2 span.date-display-single{
+.table-actus-hp span.date-display-single, .table-actus-hp2 span.date-display-single{
     text-align: right;
     float: right;
     font-style: italic;

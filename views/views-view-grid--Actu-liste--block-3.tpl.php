@@ -11,21 +11,12 @@
  */
 ?>
 <?php if (!empty($title)) : ?>
-<h3 class="actus-hp"><?php print $title; ?></h3>
+  <h3><?php print $title; ?></h3>
 <?php endif; ?>
 <table class="table-actus-hp" class="<?php print $class; ?>"<?php print $attributes; ?>>
   <tbody>
     <?php foreach ($rows as $row_number => $columns): ?>
-      <?php
-        $row_class = 'row-' . ($row_number + 1);
-        if ($row_number == 0) {
-          $row_class .= ' row-first';
-        }
-        if (count($rows) == ($row_number + 1)) {
-          $row_class .= ' row-last';
-        }
-      ?>
-      <tr class="table_tr_ombrage_bas <?php print $row_class; ?>">
+      <tr class="table_tr_ombrage_bas <?php print $row_classes[$row_number]; ?>">
         <?php foreach ($columns as $column_number => $item): ?>
           <td class="<?php print $column_classes[$row_number][$column_number]; ?>">
             <?php print $item; ?>
