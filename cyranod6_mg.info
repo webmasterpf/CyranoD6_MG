@@ -11,8 +11,10 @@ engine = phptemplate
 scripts[] = js/general.js
 
 stylesheets[all][] = css/reset.css
-stylesheets[all][] = css/layout-home.css
+;stylesheets[all][] = css/layout-home.css
+stylesheets[all][] = css/layout-home-horizontal.css
 stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/views.css
 stylesheets[all][] = css/global.css
 stylesheets[all][] = css/style-backoffice.css
 stylesheets[all][] = css/search.css
@@ -40,6 +42,9 @@ regions[DiapoHP] = Diaporama Homepage - Bloc
 regions[PartieGauche1] = Zone Droite 1 HP - Bloc
 regions[PartieGauche2] = Zone Droite 2 HP - Bloc
 regions[PartieGauche3] = Zone Droite 3 HP - Bloc
+; Diaporama Panoramique
+regions[HPBasGauche] = Zone Bas Gauche HP - Bloc
+regions[HPBasDroit] = Zone Bas Droit HP - Bloc
 regions[content_top] = Content top
 regions[content_top_node] = Content top Node
 regions[formulaire] = Zone formulaire bloc

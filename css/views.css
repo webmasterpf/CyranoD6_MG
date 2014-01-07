@@ -1,0 +1,14 @@
+/*
+Style pour vues custom
+*/
+
+.view-diaporama-homepage{
+    position: inherit;
+}
+#views_slideshow_singleframe_main_diaporama_homepage-block_1{
+    padding: 0;
+}
+#views_slideshow_singleframe_teaser_section_diaporama_homepage-block_1{
+    position: relative;
+    z-index:1;
+}

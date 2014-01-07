@@ -2,61 +2,65 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
 ?>
-<!-- ______________________ LAYOUT HOMEPAGE HORIZONTAL_______________________ -->
+<!-- ______________________ LAYOUT HOMEPAGE VERTICAL D_______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
-    
+
 	<div id="mainPage">
 
-           
+
           <?php if ($content_top): ?>
             <div id="content-top">
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
           <?php endif; ?>
 
-   <!-- ______________________ ZONE DIAPO _______________________ -->
-			
+            <!-- ______________________ PARTIE GAUCHE _______________________ -->
+
+	<div id="HPGauche">
+
+        <?php if ($PartieGauche1): ?>
+     <div id="HPGauche1"><?php print $PartieGauche1; ?></div>
+        <?php endif; ?>
+
+     <?php if ($PartieGauche2): ?>
+     <div id="HPGauche2"><?php print $PartieGauche2; ?></div>
+        <?php endif; ?>
+
+     <?php if ($PartieGauche3): ?>
+     <div id="HPGauche3"><?php print $PartieGauche3; ?></div>
+        <?php endif; ?>
+
+   </div><!-- /Partie Gauche -->
+
+   <!-- ______________________ ZONE DIAPO DROITE_______________________ -->
+
               <?php if ($DiapoHP): ?>
                  <div id="HPDiapo"><?php print $DiapoHP; ?></div>
               <?php endif; ?>
-              
-            
-         
-<br clear="all"/>
 
 
-<!-- ______________________ PARTIE BAS GAUCHE _______________________ -->
-                 <?php if ($HPBasGauche): ?>
-                 <div id="BasGaucheHP"><?php print $HPBasGauche; ?></div>
-              <?php endif; ?>  
-		 
-<!-- ______________________ PARTIE BAS DROITE _______________________ -->
-      
-	  
-	 
-        <?php if ($HPBasDroit): ?>
-     <div id="BasDroitHP"><?php print $HPBasDroit; ?></div>
-        <?php endif; ?>
-		
-     
-	  
-   
+
+
+
 	<br clear="all"/>
 	<!-- ______________________ CONTENU BAS _______________________ -->
     <?php if ($content_bottom_home): ?>
     <div id="content-bottom-home">
       <?php print $content_bottom_home; ?>
-         <?php print $feed_icons; ?>
-    </div><!-- /#content-bottom -->
-    <?php endif; ?>
+        <?php //print $feed_icons; ?>
+         <?php endif; ?>
 
-     <!-- ______________________ CONTENU BAS _______________________ -->
+         <!-- ______________________ CONTENU BAS _______________________ -->
 <?php if ($content_bottom): ?>
             <div id="content-bottom">
               <?php print $content_bottom; ?>
             </div><!-- /#content-bottom -->
           <?php endif; ?>
-	
+
+    </div><!-- /#content-bottom -->
+
+
+
 	 </div> <!-- /mainPage -->
     <?php
 global $theme_path;
