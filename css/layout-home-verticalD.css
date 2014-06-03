@@ -169,11 +169,12 @@ padding:10px 0 0;
 }
 
 #HPGauche3{
-    background: url("../images/titre_foyer_hp.gif") no-repeat top left;
+   /* background: url("../images/titre_foyer_hp.gif") no-repeat top left;*/
     margin: 0;
     padding: 35px 2px 0;
 
 }
+
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
 background:none repeat scroll 0 0 #1F1F1F;
