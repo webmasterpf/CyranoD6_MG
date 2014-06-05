@@ -184,8 +184,10 @@ padding:10px 0 0;
 }
 
 #HPGauche3 .PartieGauche3 a:hover{
-    
     color: #E1017B;
+}
+#HPGauche3 .PartieGauche3 iframe{
+    margin: 0 0 0 4em;
 }
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
