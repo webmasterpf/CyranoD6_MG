@@ -56,6 +56,14 @@
             </div>
             <?php endif;?>
                 
+                   <?php if ($node->field_scribd_vdl[0]['view']): ?>
+            <div id="vdl-scribd">
+                    <?php  print $node->field_scribd_vdl[0]['view']  ?>
+            </div>
+            <?php endif;?>
+                
+                
+                
                 <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
             <div id="vdl-galerie-image">
                     <?php  print $node->field_choix_galerie_vdl[0]['view']  ?>

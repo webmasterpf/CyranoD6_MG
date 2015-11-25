@@ -1,4 +1,5 @@
-<div id="block-<?php print $block->module .'-'. $block->delta ?>" class="block block-<?php print $block->module .' '. $block_zebra .' '. $block->region ?> clearfix">
+<div id="block-<?php print $block->module .'-'. $block->delta ?>" 
+     class="block block-<?php print $block->module .' '. $block_zebra .' '. $block->region ?> clearfix <?php print $block_classes; ?>">
   <div class="block-inner">
 
     <?php if (!empty($block->subject)): ?>

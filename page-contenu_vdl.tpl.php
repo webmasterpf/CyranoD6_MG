@@ -22,10 +22,6 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-top-node -->
             <?php endif; ?>
   
-  
-  
-      
-
 
        <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->
 

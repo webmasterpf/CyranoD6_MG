@@ -265,8 +265,8 @@ h6 {
 
 /*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
 #colonne-2 p{}
-#colonne-2 a{}
-#colonne-2 a:hover{}
+#colonne-2 a{color: #E2007A;text-decoration: none;}
+#colonne-2 a:hover{text-decoration: underline;}
 #colonne-2 h2{margin: 5px;color: #911381;}
 #colonne-2 h3{}
 #colonne-2 h4{}
@@ -465,34 +465,34 @@ _______________________________________*/
     text-align: center;
     width: 200px;
 }
-#filiere-techno table,#filiere-pro table,#filiere-bts table{
+.filiere-techno table,.filiere-pro table,.filiere-bts table{
     width: 300px;
 }
 /*Filiere Techno*/
-#filiere-techno{
+.filiere-techno{
     width: 300px;
     padding: 5px;
 }
-#filiere-techno h3{
+.filiere-techno h3{
     color: #950F7E;
     margin: 5px;
     text-align: center;
     font-family:Arista,trebuchet-MS,sans-serif;
 }
-#filiere-techno table{
+.filiere-techno table{
     border: 3px solid #950F7E;
     background: #EFEFEF;
     box-shadow:0px 0px 3px 1px #564E4E;
     -moz-box-shadow:0px 0px 3px 1px #564E4E;
     -webkit-box-shadow:0px 0px 3px 1px #564E4E;
 }
-#filiere-techno tbody{}
-#filiere-techno tr{}
-#filiere-techno td{
+.filiere-techno tbody{}
+.filiere-techno tr{}
+.filiere-techno td{
     padding: 5px;
     color: #911381;
 }
-#filiere-techno a{
+.filiere-techno a{
     text-decoration: none;
     color: #543F4F;
     font-weight: bold;
@@ -501,36 +501,36 @@ _______________________________________*/
     padding: 2px;
     display: block;
 }
-#filiere-techno a:hover{
+.filiere-techno a:hover{
     background: #D0D1D2;
     border-radius: 10px;
 }
 
 /*Filiere Pro*/
-#filiere-pro{
+.filiere-pro{
     width: 300px;
     padding: 5px;
 }
-#filiere-pro h3{
+.filiere-pro h3{
     color: #00ACD1;
     margin: 5px;
     text-align: center;
     font-family:Arista,trebuchet-MS,sans-serif;
 }
-#filiere-pro table{
+.filiere-pro table{
     border: 3px solid #00ACD1;
     background: #EFEFEF;
     box-shadow:0px 0px 3px 1px #564E4E;
     -moz-box-shadow:0px 0px 3px 1px #564E4E;
     -webkit-box-shadow:0px 0px 3px 1px #564E4E;
 }
-#filiere-pro tbody{}
-#filiere-pro tr{}
-#filiere-pro td{
+.filiere-pro tbody{}
+.filiere-pro tr{}
+.filiere-pro td{
     padding: 5px;
     color: #911381;
 }
-#filiere-pro a{
+.filiere-pro a{
     text-decoration: none;
     color: #543F4F;
     font-weight: bold;
@@ -539,36 +539,36 @@ _______________________________________*/
     padding: 2px;
     display: block;
 }
-#filiere-pro a:hover{
+.filiere-pro a:hover{
     background: #D0D1D2;
     border-radius: 10px;
 }
 
-/*Filiere BTS*/
-#filiere-bts{
+/*Filiere BTS - Prépas*/
+.filiere-bts{
     width: 300px;
     padding: 5px;
 }
-#filiere-bts h3{
+.filiere-bts h3{
     color: #E2007A;
     margin: 5px;
     text-align: center;
     font-family:Arista,trebuchet-MS,sans-serif;
 }
-#filiere-bts table{
+.filiere-bts table{
     border: 3px solid #E2007A;
     background: #EFEFEF;
     box-shadow:0px 0px 3px 1px #564E4E;
     -moz-box-shadow:0px 0px 3px 1px #564E4E;
     -webkit-box-shadow:0px 0px 3px 1px #564E4E;
 }
-#filiere-bts tbody{}
-#filiere-bts tr{}
-#filiere-bts td{
+.filiere-bts tbody{}
+.filiere-bts tr{}
+.filiere-bts td{
     padding: 5px;
     color: #911381;
 }
-#filiere-bts a{
+.filiere-bts a{
     text-decoration: none;
     color: #543F4F;
     font-weight: bold;
@@ -577,7 +577,7 @@ _______________________________________*/
     padding: 2px;
     display: block;
 }
-#filiere-bts a:hover{
+.filiere-bts a:hover{
     background: #D0D1D2;
     border-radius: 10px;
 }
@@ -1172,3 +1172,32 @@ _____ DEFILANT HP ________
 padding: 11px 0;text-align: center;width: 915px;border: 2px solid;}
 #annonce a{color: #93117E;text-decoration: none;font-weight: bold;}
 #annonce a:hover{text-decoration: underline;}
+/*********************************
+----------------------------------
+---- RESEAUX SOCIAUX Service links
+---------------------------------*/
+.service-links, #content-bottom-home .service-links{
+    background: none repeat scroll 0 0 #EFEFEF;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    width: 850px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   /*behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;*/
+}
+.service-links a{
+    margin: 0 5px;
+    color: #F29400;
+}
+.service-links a:hover{
+    text-decoration: none;
+}
+.service-links iframe{
+    height: 20px;
+    overflow: hidden;
+    width: auto;
+}

@@ -88,7 +88,7 @@ height: 100%;
 }
 #content-top-node{
     width: 900px;
-    background-color: #999;
+    background-color: transparent;
     margin: 0 auto;
     padding: 5px;  
 }	

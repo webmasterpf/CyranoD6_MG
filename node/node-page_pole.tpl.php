@@ -30,10 +30,7 @@
          * .col1_layout_490_all{}  .col2_layout_490_all{}
          */?>
         <div id="colonne-1" class="col1_layout_330_all">
-           <?php
-              global $theme_path;
-              include ($theme_path.'/includes/inc_filiere_techno.php');
-              ?>
+       
              <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
@@ -43,9 +40,10 @@
          <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
         <div id="colonne-2" class="col2_layout_330_all">
 
+         
             <?php
               global $theme_path;
-              include ($theme_path.'/includes/inc_filiere_pro.php');
+              include ($theme_path.'/includes/inc_region_col_G2.php');
               ?>
 
         </div>
@@ -53,9 +51,10 @@
         <!--______________COLONNE 3________________ -->
         <div id="colonne-3" class="col3_layout_330_all">
             
+         
             <?php
               global $theme_path;
-              include ($theme_path.'/includes/inc_filiere_bts.php');
+              include ($theme_path.'/includes/inc_region_col_G3.php');
               ?>
             
             
