@@ -46,6 +46,13 @@
     <tr>
     <td><?php print $node->content['webform']['#value']; ?></td>
     </tr>
+      <tr>
+    <td><?php if ($node->field_apres_form[0]['view']): ?>
+            <div id="texte-sous-formulaire">
+                    <?php  print $node->field_apres_form[0]['view']  ?>
+            </div>
+            <?php endif;?></td>
+    </tr>         
     </table>
   </div>
 
